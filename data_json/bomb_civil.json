@@ -1,0 +1,42 @@
+[
+  {
+    "type": "column",
+    "name": "Explosives",
+    "legendText": "",
+    "showInLegend": true,
+    "dataPoints": [
+      {
+        "label": "1970-1985",
+        "y": 0.7702422309091006
+      },
+      {
+        "label": "1986-2000",
+        "y": 1.4010656473874907
+      },
+      {
+        "label": "2001-2016",
+        "y": 2.6191849112097847
+      }
+    ]
+  },
+  {
+    "type": "column",
+    "name": "Civils",
+    "legendText": "",
+    "showInLegend": true,
+    "dataPoints": [
+      {
+        "label": "1970-1985",
+        "y": 0.34649064167709814
+      },
+      {
+        "label": "1986-2000",
+        "y": 0.30461002004808874
+      },
+      {
+        "label": "2001-2016",
+        "y": 0.5273060791499486
+      }
+    ]
+  }
+]
