@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <script>
+        window.onload = function () {
+
+            var chart = new CanvasJS.Chart("chartContainer", {
+                animationEnabled: true,
+                title: {
+                    text: "R\351partition du nombre d'attentats par type d'attaques par d\351cennie"
+                },
+                axisX: {
+                    interval: 1,
+                    intervalType: "year",
+                    valueFormatString: "YYYY"
+                },
+                axisY: {
+                    suffix: "%"
+                },
+                toolTip: {
+                    shared: true
+                },
+                legend: {
+                    reversed: true,
+                    verticalAlign: "center",
+                    horizontalAlign: "right"
+                },
+                data: [{
+                    "type": "stackedColumn100",
+                    "name": "Armes \340 feu",
+                    "showInLegend": true,
+                    "yValueFormatString": "#,##0\"%\"",
+                    "dataPoints": [{"label": "1970", "y": 14}, {"label": "1980", "y": 24}, {
+                        "label": "1990",
+                        "y": 25
+                    }, {"label": "2000", "y": 25}, {"label": "2010", "y": 24}]
+                }, {
+                    "type": "stackedColumn100",
+                    "name": "Assassinat",
+                    "showInLegend": true,
+                    "yValueFormatString": "#,##0\"%\"",
+                    "dataPoints": [{"label": "1970", "y": 22}, {"label": "1980", "y": 19}, {
+                        "label": "1990",
+                        "y": 18
+                    }, {"label": "2000", "y": 6}, {"label": "2010", "y": 6}]
+                }, {
+                    "type": "stackedColumn100",
+                    "name": "Explosifs",
+                    "showInLegend": true,
+                    "yValueFormatString": "#,##0\"%\"",
+                    "dataPoints": [{"label": "1970", "y": 43}, {"label": "1980", "y": 45}, {
+                        "label": "1990",
+                        "y": 38
+                    }, {"label": "2000", "y": 54}, {"label": "2010", "y": 55}]
+                }, {
+                    "type": "stackedColumn100",
+                    "name": "other",
+                    "showInLegend": true,
+                    "yValueFormatString": "#,##0\"%\"",
+                    "dataPoints": [{"label": "1970", "y": 20}, {"label": "1980", "y": 12}, {
+                        "label": "1990",
+                        "y": 19
+                    }, {"label": "2000", "y": 14}, {"label": "2010", "y": 14}]
+                }]
+            });
+            chart.render();
+
+        }
+    </script>
+</head>
+<body>
+<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>
