@@ -4,11 +4,11 @@
     <script>
         window.onload = function () {
 
-            var chart = new CanvasJS.Chart("chartContainer", {
+            var chart1 = new CanvasJS.Chart("chartContainer1", {
                 exportEnabled: true,
                 animationEnabled: true,
                 title:{
-                    text: "State Operating Funds"
+                    text: "1970-1994"
                 },
                 legend:{
                     cursor: "pointer",
@@ -16,21 +16,85 @@
                 },
                 data: [{
                     type: "pie",
-                    showInLegend: true,
+                    showInLegend: false,
                     toolTipContent: "{name}: <strong>{y}%</strong>",
                     indexLabel: "{name} - {y}%",
                     dataPoints: [
-                        { "y": 26, "name": "School Aid", exploded: true },
-                        { "y": 20, "name": "Medical Aid" },
-                        { "y": 5, "name": "Debt/Capital" },
-                        { "y": 3, "name": "Elected Officials" },
-                        { "y": 7, "name": "University" },
-                        { "y": 17, "name": "Executive" },
-                        { "y": 22, "name": "Other Local Assistance"}
+                        {
+                            "y": 8898,
+                            "name": "Business"
+                        },
+                        {
+                            "y": 1847,
+                            "name": "Gouvernement"
+                        },
+                        {
+                            "y": 7535,
+                            "name": "Militaire"
+                        },
+                        {
+                            "y": 18809,
+                            "name": "Autres"
+                        },
+                        {
+                            "y": 6166,
+                            "name": "Police"
+                        },
+                        {
+                            "y": 8938,
+                            "name": "Civil", exploded: true
+                        }
                     ]
                 }]
             });
-            chart.render();
+
+            var chart2 = new CanvasJS.Chart("chartContainer2", {
+                exportEnabled: true,
+                animationEnabled: true,
+                title:{
+                    text: "1995-2016"
+                },
+                legend:{
+                    cursor: "pointer",
+                    itemclick: explodePie
+                },
+                data: [{
+                    type: "pie",
+                    showInLegend: false,
+                    toolTipContent: "{name}: <strong>{y}%</strong>",
+                    indexLabel: "{name} - {y}%",
+                    dataPoints: [
+                        {
+                            "y": 9505,
+                            "name": "Business"
+                        },
+                        {
+                            "y": 1408,
+                            "name": "Gouvernement"
+                        },
+                        {
+                            "y": 15848,
+                            "name": "Militaire"
+                        },
+                        {
+                            "y": 36758,
+                            "name": "Autres"
+                        },
+                        {
+                            "y": 16046,
+                            "name": "Police"
+                        },
+                        {
+                            "y": 28910,
+                            "name": "Civil", exploded: true
+                        }
+                    ]
+                }]
+            });
+
+            chart1.render();
+            chart2.render();
+
         }
 
         function explodePie (e) {
@@ -39,13 +103,18 @@
             } else {
                 e.dataSeries.dataPoints[e.dataPointIndex].exploded = false;
             }
-            e.chart.render();
+            e.chart1.render();
+            e.chart2.render();
+
 
         }
     </script>
 </head>
 <body>
-<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+<div id="parentContainer" style="width: 100%;">
+    <div id="chartContainer1" style="float: left; width: 45%; height: 260px;"></div>
+    <div id="chartContainer2" style="float: right; width: 45%; height: 260px;"></div>
+</div>
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 </body>
 </html>
