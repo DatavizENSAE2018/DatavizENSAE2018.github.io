@@ -1,0 +1,26 @@
+[
+  {
+    "y": 9505,
+    "name": "Business"
+  },
+  {
+    "y": 1408,
+    "name": "Government (Diplomatic)"
+  },
+  {
+    "y": 15848,
+    "name": "Military"
+  },
+  {
+    "y": 36758,
+    "name": "Other"
+  },
+  {
+    "y": 16046,
+    "name": "Police"
+  },
+  {
+    "y": 28910,
+    "name": "Private Citizens & Property"
+  }
+]

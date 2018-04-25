@@ -1,0 +1,90 @@
+[
+  {
+    "y": 103,
+    "name": "Abortion Related"
+  },
+  {
+    "y": 417,
+    "name": "Airports & Aircraft"
+  },
+  {
+    "y": 9505,
+    "name": "Business"
+  },
+  {
+    "y": 2928,
+    "name": "Educational Institution"
+  },
+  {
+    "y": 149,
+    "name": "Food or Water Supply"
+  },
+  {
+    "y": 1408,
+    "name": "Government (Diplomatic)"
+  },
+  {
+    "y": 12596,
+    "name": "Government (General)"
+  },
+  {
+    "y": 1439,
+    "name": "Journalists & Media"
+  },
+  {
+    "y": 143,
+    "name": "Maritime"
+  },
+  {
+    "y": 15848,
+    "name": "Military"
+  },
+  {
+    "y": 664,
+    "name": "NGO"
+  },
+  {
+    "y": 541,
+    "name": "Other"
+  },
+  {
+    "y": 16046,
+    "name": "Police"
+  },
+  {
+    "y": 28910,
+    "name": "Private Citizens & Property"
+  },
+  {
+    "y": 3130,
+    "name": "Religious Figures/Institutions"
+  },
+  {
+    "y": 576,
+    "name": "Telecommunication"
+  },
+  {
+    "y": 2187,
+    "name": "Terrorists/Non-State Militia"
+  },
+  {
+    "y": 245,
+    "name": "Tourists"
+  },
+  {
+    "y": 3735,
+    "name": "Transportation"
+  },
+  {
+    "y": 4451,
+    "name": "Unknown"
+  },
+  {
+    "y": 2361,
+    "name": "Utilities"
+  },
+  {
+    "y": 1093,
+    "name": "Violent Political Party"
+  }
+]

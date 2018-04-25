@@ -1,0 +1,98 @@
+[
+  {
+    "type": "stackedBar100",
+    "toolTipContent": "{label}<br><b>{name}:</b> {y} (#percent%)",
+    "showInLegend": true,
+    "name": "Autres",
+    "dataPoints": [
+      {
+        "y": 19.0,
+        "label": "Nationalistes"
+      },
+      {
+        "y": 15.0,
+        "label": "Islamistes"
+      }
+    ]
+  },
+  {
+    "type": "stackedBar100",
+    "toolTipContent": "{label}<br><b>{name}:</b> {y} (#percent%)",
+    "showInLegend": true,
+    "name": "Business",
+    "dataPoints": [
+      {
+        "y": 14.0,
+        "label": "Nationalistes"
+      },
+      {
+        "y": 5.0,
+        "label": "Islamistes"
+      }
+    ]
+  },
+  {
+    "type": "stackedBar100",
+    "toolTipContent": "{label}<br><b>{name}:</b> {y} (#percent%)",
+    "showInLegend": true,
+    "name": "Civil",
+    "dataPoints": [
+      {
+        "y": 17.0,
+        "label": "Nationalistes"
+      },
+      {
+        "y": 27.0,
+        "label": "Islamistes"
+      }
+    ]
+  },
+  {
+    "type": "stackedBar100",
+    "toolTipContent": "{label}<br><b>{name}:</b> {y} (#percent%)",
+    "showInLegend": true,
+    "name": "Gouvernement",
+    "dataPoints": [
+      {
+        "y": 11.0,
+        "label": "Nationalistes"
+      },
+      {
+        "y": 10.0,
+        "label": "Islamistes"
+      }
+    ]
+  },
+  {
+    "type": "stackedBar100",
+    "toolTipContent": "{label}<br><b>{name}:</b> {y} (#percent%)",
+    "showInLegend": true,
+    "name": "Militaire",
+    "dataPoints": [
+      {
+        "y": 21.0,
+        "label": "Nationalistes"
+      },
+      {
+        "y": 22.0,
+        "label": "Islamistes"
+      }
+    ]
+  },
+  {
+    "type": "stackedBar100",
+    "toolTipContent": "{label}<br><b>{name}:</b> {y} (#percent%)",
+    "showInLegend": true,
+    "name": "Police",
+    "dataPoints": [
+      {
+        "y": 16.0,
+        "label": "Nationalistes"
+      },
+      {
+        "y": 19.0,
+        "label": "Islamistes"
+      }
+    ]
+  }
+]
