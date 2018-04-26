@@ -9,469 +9,2734 @@ Licence URI: http://www.os-templates.com/template-terms
 <html lang="">
 <!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
 <head>
-<title>Jovaphile</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <title>Le Terrorisme change de visage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body id="top">
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row0">
-  <nav id="mainav" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <ul class="clear">
-      <li class="active"><a href="index.html">Home</a></li>
-      <li><a class="drop" href="#">Pages</a>
-        <ul>
-          <li><a href="pages/gallery.html">Gallery</a></li>
-          <li><a href="pages/full-width.html">Full Width</a></li>
-          <li><a href="pages/sidebar-left.html">Sidebar Left</a></li>
-          <li><a href="pages/sidebar-right.html">Sidebar Right</a></li>
-          <li><a href="pages/basic-grid.html">Basic Grid</a></li>
+    <nav id="mainav" class="hoc clear">
+        <!-- ################################################################################################ -->
+        <ul class="clear">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class>
+                <a href=#mode_opératoire class="page-scroll">Modes Opératoires</a>
+            </li>
+            
         </ul>
-      </li>
-      <li><a class="drop" href="#">Dropdown</a>
-        <ul>
-          <li><a href="#">Level 2</a></li>
-          <li><a class="drop" href="#">Level 2 + Drop</a>
-            <ul>
-              <li><a href="#">Level 3</a></li>
-              <li><a href="#">Level 3</a></li>
-              <li><a href="#">Level 3</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Level 2</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Link Text</a></li>
-      <li><a href="#">Link Text</a></li>
-      <li><a href="#">Link Text</a></li>
-      <li><a href="#">Long Link Text</a></li>
-    </ul>
-    <!-- ################################################################################################ -->
-  </nav>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row1">
-  <header id="header" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <h1><a href="index.html">Jovaphile</a></h1>
-    <p>Quisque faucibus dui</p>
-    <!-- ################################################################################################ -->
-  </header>
+        <!-- ################################################################################################ -->
+    </nav>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper bgded overlay light" style="background-image:url('images/demo/backgrounds/bg1.png');">
-  <div id="pageintro" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <article>
-      <h3 class="heading">Le terrorisme est-il de plus en plus violent ? </h3>
-      <p>Ornare auctor vulputate nec placerat in ultrices lacus ligula sed faucibus.</p>
-      <footer>
-        <ul class="nospace inline pushright">
-          <li><a class="btn" href="#">Placerat mollis</a></li>
-          <li><a class="btn inverse" href="#">Elit accumsan</a></li>
-        </ul>
-      </footer>
-    </article>
-    <!-- ################################################################################################ -->
-  </div>
+    <div id="pageintro" class="hoc clear">
+        <!-- ################################################################################################ -->
+        <article>
+            <h3 class="heading">Le terrorisme change de visage </h3>
+            <footer>
+                <ul class="nospace inline pushright">
+                    <li><a class="btn" href="#intro">Comment ?</a></li>
+                </ul>
+            </footer>
+        </article>
+        <!-- ################################################################################################ -->
+    </div>
+</div>
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div id="intro" class="wrapper row2">
+    <div class="hoc container cta clear">
+        <div class="space"></div>
+        <article>
+            <p>France, Belgique, Allemagne, Etats-Unis, ... Ces dernières années les attentats dans le monde occidental
+                ont créé une médiatisation grandissante autour du terrorisme, engendrant une prise de conscience de
+                cette menace mais aussi de nombreuses polémiques sur sa nature ou sa cause. Cette sensibilisation
+                toujours plus importante est justifiée par la multiplication considérable du nombre de victimes depuis
+                2010.
+            </p>
+            <!-- ################################################################################################ -->
+            <script>
+                window.onload = function () {
+
+                    var chart1 = new CanvasJS.Chart("country", {
+                        backgroundColor: "#fafafa",
+                        animationEnabled: true,
+                        title: {},
+                        axisY: {
+                            valueFormatString: "#0,.",
+                            suffix: "k",
+                            title: "nombre de victimes"
+                        },
+                        axisX: {},
+                        toolTip: {
+                            shared: true
+                        },
+                        data: [
+                            {
+                                "type": "stackedArea",
+                                "showInLegend": true,
+                                "toolTipContent": "<span style=\"color:#4F81BC\"><strong>{name}: </strong></span> {y}",
+                                "name": "Reste du monde",
+                                "dataPoints": [
+                                    {
+                                        "x": new Date(1970, 0),
+                                        "y": 170
+                                    },
+                                    {
+                                        "x": new Date(1971, 0),
+                                        "y": 173
+                                    },
+                                    {
+                                        "x": new Date(1972, 0),
+                                        "y": 566
+                                    },
+                                    {
+                                        "x": new Date(1973, 0),
+                                        "y": 370
+                                    },
+                                    {
+                                        "x": new Date(1974, 0),
+                                        "y": 541
+                                    },
+                                    {
+                                        "x": new Date(1975, 0),
+                                        "y": 612
+                                    },
+                                    {
+                                        "x": new Date(1976, 0),
+                                        "y": 666
+                                    },
+                                    {
+                                        "x": new Date(1977, 0),
+                                        "y": 455
+                                    },
+                                    {
+                                        "x": new Date(1978, 0),
+                                        "y": 1454
+                                    },
+                                    {
+                                        "x": new Date(1979, 0),
+                                        "y": 1930
+                                    },
+                                    {
+                                        "x": new Date(1980, 0),
+                                        "y": 4268
+                                    },
+                                    {
+                                        "x": new Date(1981, 0),
+                                        "y": 4631
+                                    },
+                                    {
+                                        "x": new Date(1982, 0),
+                                        "y": 4970
+                                    },
+                                    {
+                                        "x": new Date(1983, 0),
+                                        "y": 9373
+                                    },
+                                    {
+                                        "x": new Date(1984, 0),
+                                        "y": 10243
+                                    },
+                                    {
+                                        "x": new Date(1985, 0),
+                                        "y": 7013
+                                    },
+                                    {
+                                        "x": new Date(1986, 0),
+                                        "y": 4568
+                                    },
+                                    {
+                                        "x": new Date(1987, 0),
+                                        "y": 5787
+                                    },
+                                    {
+                                        "x": new Date(1988, 0),
+                                        "y": 5955
+                                    },
+                                    {
+                                        "x": new Date(1989, 0),
+                                        "y": 7196
+                                    },
+                                    {
+                                        "x": new Date(1990, 0),
+                                        "y": 6041
+                                    },
+                                    {
+                                        "x": new Date(1991, 0),
+                                        "y": 7007
+                                    },
+                                    {
+                                        "x": new Date(1992, 0),
+                                        "y": 8257
+                                    },
+                                    {
+                                        "x": new Date(1994, 0),
+                                        "y": 6911
+                                    },
+                                    {
+                                        "x": new Date(1995, 0),
+                                        "y": 5015
+                                    },
+                                    {
+                                        "x": new Date(1996, 0),
+                                        "y": 5903
+                                    },
+                                    {
+                                        "x": new Date(1997, 0),
+                                        "y": 9519
+                                    },
+                                    {
+                                        "x": new Date(1998, 0),
+                                        "y": 4122
+                                    },
+                                    {
+                                        "x": new Date(1999, 0),
+                                        "y": 2624
+                                    },
+                                    {
+                                        "x": new Date(2000, 0),
+                                        "y": 3575
+                                    },
+                                    {
+                                        "x": new Date(2001, 0),
+                                        "y": 6797
+                                    },
+                                    {
+                                        "x": new Date(2002, 0),
+                                        "y": 3999
+                                    },
+                                    {
+                                        "x": new Date(2003, 0),
+                                        "y": 2496
+                                    },
+                                    {
+                                        "x": new Date(2004, 0),
+                                        "y": 4760
+                                    },
+                                    {
+                                        "x": new Date(2005, 0),
+                                        "y": 5312
+                                    },
+                                    {
+                                        "x": new Date(2006, 0),
+                                        "y": 7336
+                                    },
+                                    {
+                                        "x": new Date(2007, 0),
+                                        "y": 9547
+                                    },
+                                    {
+                                        "x": new Date(2008, 0),
+                                        "y": 5953
+                                    },
+                                    {
+                                        "x": new Date(2009, 0),
+                                        "y": 5630
+                                    },
+                                    {
+                                        "x": new Date(2010, 0),
+                                        "y": 4038
+                                    },
+                                    {
+                                        "x": new Date(2011, 0),
+                                        "y": 3934
+                                    },
+                                    {
+                                        "x": new Date(2012, 0),
+                                        "y": 6482
+                                    },
+                                    {
+                                        "x": new Date(2013, 0),
+                                        "y": 11621
+                                    },
+                                    {
+                                        "x": new Date(2014, 0),
+                                        "y": 24167
+                                    },
+                                    {
+                                        "x": new Date(2015, 0),
+                                        "y": 20984
+                                    },
+                                    {
+                                        "x": new Date(2016, 0),
+                                        "y": 22064
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "stackedArea",
+                                "showInLegend": true,
+                                "toolTipContent": "<span style=\"color:#4F81BC\"><strong>{name}: </strong></span> {y}",
+                                "name": "Pakistan",
+                                "dataPoints": [
+                                    {
+                                        "x": new Date(1970, 0),
+                                        "y": 1
+                                    },
+                                    {
+                                        "x": new Date(1974, 0),
+                                        "y": 0
+                                    },
+                                    {
+                                        "x": new Date(1975, 0),
+                                        "y": 1
+                                    },
+                                    {
+                                        "x": new Date(1976, 0),
+                                        "y": 1
+                                    },
+                                    {
+                                        "x": new Date(1978, 0),
+                                        "y": 5
+                                    },
+                                    {
+                                        "x": new Date(1979, 0),
+                                        "y": 6
+                                    },
+                                    {
+                                        "x": new Date(1980, 0),
+                                        "y": 17
+                                    },
+                                    {
+                                        "x": new Date(1981, 0),
+                                        "y": 4
+                                    },
+                                    {
+                                        "x": new Date(1982, 0),
+                                        "y": 3
+                                    },
+                                    {
+                                        "x": new Date(1983, 0),
+                                        "y": 10
+                                    },
+                                    {
+                                        "x": new Date(1984, 0),
+                                        "y": 12
+                                    },
+                                    {
+                                        "x": new Date(1985, 0),
+                                        "y": 0
+                                    },
+                                    {
+                                        "x": new Date(1986, 0),
+                                        "y": 60
+                                    },
+                                    {
+                                        "x": new Date(1987, 0),
+                                        "y": 183
+                                    },
+                                    {
+                                        "x": new Date(1988, 0),
+                                        "y": 136
+                                    },
+                                    {
+                                        "x": new Date(1989, 0),
+                                        "y": 56
+                                    },
+                                    {
+                                        "x": new Date(1990, 0),
+                                        "y": 188
+                                    },
+                                    {
+                                        "x": new Date(1991, 0),
+                                        "y": 231
+                                    },
+                                    {
+                                        "x": new Date(1992, 0),
+                                        "y": 152
+                                    },
+                                    {
+                                        "x": new Date(1994, 0),
+                                        "y": 354
+                                    },
+                                    {
+                                        "x": new Date(1995, 0),
+                                        "y": 712
+                                    },
+                                    {
+                                        "x": new Date(1996, 0),
+                                        "y": 423
+                                    },
+                                    {
+                                        "x": new Date(1997, 0),
+                                        "y": 443
+                                    },
+                                    {
+                                        "x": new Date(1998, 0),
+                                        "y": 151
+                                    },
+                                    {
+                                        "x": new Date(1999, 0),
+                                        "y": 127
+                                    },
+                                    {
+                                        "x": new Date(2000, 0),
+                                        "y": 118
+                                    },
+                                    {
+                                        "x": new Date(2001, 0),
+                                        "y": 109
+                                    },
+                                    {
+                                        "x": new Date(2002, 0),
+                                        "y": 105
+                                    },
+                                    {
+                                        "x": new Date(2003, 0),
+                                        "y": 119
+                                    },
+                                    {
+                                        "x": new Date(2004, 0),
+                                        "y": 304
+                                    },
+                                    {
+                                        "x": new Date(2005, 0),
+                                        "y": 152
+                                    },
+                                    {
+                                        "x": new Date(2006, 0),
+                                        "y": 314
+                                    },
+                                    {
+                                        "x": new Date(2007, 0),
+                                        "y": 1406
+                                    },
+                                    {
+                                        "x": new Date(2008, 0),
+                                        "y": 1184
+                                    },
+                                    {
+                                        "x": new Date(2009, 0),
+                                        "y": 1487
+                                    },
+                                    {
+                                        "x": new Date(2010, 0),
+                                        "y": 1695
+                                    },
+                                    {
+                                        "x": new Date(2011, 0),
+                                        "y": 1674
+                                    },
+                                    {
+                                        "x": new Date(2012, 0),
+                                        "y": 2784
+                                    },
+                                    {
+                                        "x": new Date(2013, 0),
+                                        "y": 2874
+                                    },
+                                    {
+                                        "x": new Date(2014, 0),
+                                        "y": 2414
+                                    },
+                                    {
+                                        "x": new Date(2015, 0),
+                                        "y": 1607
+                                    },
+                                    {
+                                        "x": new Date(2016, 0),
+                                        "y": 1112
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "stackedArea",
+                                "showInLegend": true,
+                                "toolTipContent": "<span style=\"color:#4F81BC\"><strong>{name}: </strong></span> {y}",
+                                "name": "Inde",
+                                "dataPoints": [
+                                    {
+                                        "x": new Date(1972, 0),
+                                        "y": 0
+                                    },
+                                    {
+                                        "x": new Date(1975, 0),
+                                        "y": 4
+                                    },
+                                    {
+                                        "x": new Date(1976, 0),
+                                        "y": 0
+                                    },
+                                    {
+                                        "x": new Date(1977, 0),
+                                        "y": 0
+                                    },
+                                    {
+                                        "x": new Date(1979, 0),
+                                        "y": 31
+                                    },
+                                    {
+                                        "x": new Date(1980, 0),
+                                        "y": 17
+                                    },
+                                    {
+                                        "x": new Date(1981, 0),
+                                        "y": 24
+                                    },
+                                    {
+                                        "x": new Date(1982, 0),
+                                        "y": 64
+                                    },
+                                    {
+                                        "x": new Date(1983, 0),
+                                        "y": 59
+                                    },
+                                    {
+                                        "x": new Date(1984, 0),
+                                        "y": 195
+                                    },
+                                    {
+                                        "x": new Date(1985, 0),
+                                        "y": 51
+                                    },
+                                    {
+                                        "x": new Date(1986, 0),
+                                        "y": 340
+                                    },
+                                    {
+                                        "x": new Date(1987, 0),
+                                        "y": 506
+                                    },
+                                    {
+                                        "x": new Date(1988, 0),
+                                        "y": 966
+                                    },
+                                    {
+                                        "x": new Date(1989, 0),
+                                        "y": 874
+                                    },
+                                    {
+                                        "x": new Date(1990, 0),
+                                        "y": 907
+                                    },
+                                    {
+                                        "x": new Date(1991, 0),
+                                        "y": 1113
+                                    },
+                                    {
+                                        "x": new Date(1992, 0),
+                                        "y": 1152
+                                    },
+                                    {
+                                        "x": new Date(1994, 0),
+                                        "y": 389
+                                    },
+                                    {
+                                        "x": new Date(1995, 0),
+                                        "y": 361
+                                    },
+                                    {
+                                        "x": new Date(1996, 0),
+                                        "y": 569
+                                    },
+                                    {
+                                        "x": new Date(1997, 0),
+                                        "y": 853
+                                    },
+                                    {
+                                        "x": new Date(1998, 0),
+                                        "y": 398
+                                    },
+                                    {
+                                        "x": new Date(1999, 0),
+                                        "y": 464
+                                    },
+                                    {
+                                        "x": new Date(2000, 0),
+                                        "y": 671
+                                    },
+                                    {
+                                        "x": new Date(2001, 0),
+                                        "y": 660
+                                    },
+                                    {
+                                        "x": new Date(2002, 0),
+                                        "y": 593
+                                    },
+                                    {
+                                        "x": new Date(2003, 0),
+                                        "y": 472
+                                    },
+                                    {
+                                        "x": new Date(2004, 0),
+                                        "y": 334
+                                    },
+                                    {
+                                        "x": new Date(2005, 0),
+                                        "y": 463
+                                    },
+                                    {
+                                        "x": new Date(2006, 0),
+                                        "y": 722
+                                    },
+                                    {
+                                        "x": new Date(2007, 0),
+                                        "y": 626
+                                    },
+                                    {
+                                        "x": new Date(2008, 0),
+                                        "y": 819
+                                    },
+                                    {
+                                        "x": new Date(2009, 0),
+                                        "y": 774
+                                    },
+                                    {
+                                        "x": new Date(2010, 0),
+                                        "y": 812
+                                    },
+                                    {
+                                        "x": new Date(2011, 0),
+                                        "y": 489
+                                    },
+                                    {
+                                        "x": new Date(2012, 0),
+                                        "y": 264
+                                    },
+                                    {
+                                        "x": new Date(2013, 0),
+                                        "y": 467
+                                    },
+                                    {
+                                        "x": new Date(2014, 0),
+                                        "y": 490
+                                    },
+                                    {
+                                        "x": new Date(2015, 0),
+                                        "y": 387
+                                    },
+                                    {
+                                        "x": new Date(2016, 0),
+                                        "y": 462
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "stackedArea",
+                                "showInLegend": true,
+                                "toolTipContent": "<span style=\"color:#4F81BC\"><strong>{name}: </strong></span> {y}",
+                                "name": "Afghanistan",
+                                "dataPoints": [
+                                    {
+                                        "x": new Date(1973, 0),
+                                        "y": 0
+                                    },
+                                    {
+                                        "x": new Date(1979, 0),
+                                        "y": 53
+                                    },
+                                    {
+                                        "x": new Date(1987, 0),
+                                        "y": 0
+                                    },
+                                    {
+                                        "x": new Date(1988, 0),
+                                        "y": 128
+                                    },
+                                    {
+                                        "x": new Date(1989, 0),
+                                        "y": 10
+                                    },
+                                    {
+                                        "x": new Date(1990, 0),
+                                        "y": 12
+                                    },
+                                    {
+                                        "x": new Date(1991, 0),
+                                        "y": 68
+                                    },
+                                    {
+                                        "x": new Date(1992, 0),
+                                        "y": 49
+                                    },
+                                    {
+                                        "x": new Date(1994, 0),
+                                        "y": 22
+                                    },
+                                    {
+                                        "x": new Date(1995, 0),
+                                        "y": 5
+                                    },
+                                    {
+                                        "x": new Date(1996, 0),
+                                        "y": 31
+                                    },
+                                    {
+                                        "x": new Date(1997, 0),
+                                        "y": 4
+                                    },
+                                    {
+                                        "x": new Date(1998, 0),
+                                        "y": 8
+                                    },
+                                    {
+                                        "x": new Date(1999, 0),
+                                        "y": 39
+                                    },
+                                    {
+                                        "x": new Date(2000, 0),
+                                        "y": 38
+                                    },
+                                    {
+                                        "x": new Date(2001, 0),
+                                        "y": 174
+                                    },
+                                    {
+                                        "x": new Date(2002, 0),
+                                        "y": 74
+                                    },
+                                    {
+                                        "x": new Date(2003, 0),
+                                        "y": 163
+                                    },
+                                    {
+                                        "x": new Date(2004, 0),
+                                        "y": 275
+                                    },
+                                    {
+                                        "x": new Date(2005, 0),
+                                        "y": 367
+                                    },
+                                    {
+                                        "x": new Date(2006, 0),
+                                        "y": 731
+                                    },
+                                    {
+                                        "x": new Date(2007, 0),
+                                        "y": 1197
+                                    },
+                                    {
+                                        "x": new Date(2008, 0),
+                                        "y": 1089
+                                    },
+                                    {
+                                        "x": new Date(2009, 0),
+                                        "y": 1064
+                                    },
+                                    {
+                                        "x": new Date(2010, 0),
+                                        "y": 1065
+                                    },
+                                    {
+                                        "x": new Date(2011, 0),
+                                        "y": 1521
+                                    },
+                                    {
+                                        "x": new Date(2012, 0),
+                                        "y": 3521
+                                    },
+                                    {
+                                        "x": new Date(2013, 0),
+                                        "y": 3696
+                                    },
+                                    {
+                                        "x": new Date(2014, 0),
+                                        "y": 5413
+                                    },
+                                    {
+                                        "x": new Date(2015, 0),
+                                        "y": 6210
+                                    },
+                                    {
+                                        "x": new Date(2016, 0),
+                                        "y": 6119
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "stackedArea",
+                                "showInLegend": true,
+                                "toolTipContent": "<span style=\"color:#4F81BC\"><strong>{name}: </strong></span> {y}",
+                                "name": "Syrie",
+                                "dataPoints": [
+                                    {
+                                        "x": new Date(1974, 0),
+                                        "y": 1
+                                    },
+                                    {
+                                        "x": new Date(1975, 0),
+                                        "y": 0
+                                    },
+                                    {
+                                        "x": new Date(1976, 0),
+                                        "y": 5
+                                    },
+                                    {
+                                        "x": new Date(1977, 0),
+                                        "y": 1
+                                    },
+                                    {
+                                        "x": new Date(1979, 0),
+                                        "y": 80
+                                    },
+                                    {
+                                        "x": new Date(1980, 0),
+                                        "y": 89
+                                    },
+                                    {
+                                        "x": new Date(1981, 0),
+                                        "y": 192
+                                    },
+                                    {
+                                        "x": new Date(1982, 0),
+                                        "y": 98
+                                    },
+                                    {
+                                        "x": new Date(1983, 0),
+                                        "y": 1
+                                    },
+                                    {
+                                        "x": new Date(1984, 0),
+                                        "y": 0
+                                    },
+                                    {
+                                        "x": new Date(1985, 0),
+                                        "y": 30
+                                    },
+                                    {
+                                        "x": new Date(1986, 0),
+                                        "y": 8
+                                    },
+                                    {
+                                        "x": new Date(1989, 0),
+                                        "y": 0
+                                    },
+                                    {
+                                        "x": new Date(1996, 0),
+                                        "y": 15
+                                    },
+                                    {
+                                        "x": new Date(1997, 0),
+                                        "y": 2
+                                    },
+                                    {
+                                        "x": new Date(2004, 0),
+                                        "y": 4
+                                    },
+                                    {
+                                        "x": new Date(2006, 0),
+                                        "y": 5
+                                    },
+                                    {
+                                        "x": new Date(2008, 0),
+                                        "y": 18
+                                    },
+                                    {
+                                        "x": new Date(2011, 0),
+                                        "y": 163
+                                    },
+                                    {
+                                        "x": new Date(2012, 0),
+                                        "y": 877
+                                    },
+                                    {
+                                        "x": new Date(2013, 0),
+                                        "y": 1562
+                                    },
+                                    {
+                                        "x": new Date(2014, 0),
+                                        "y": 3301
+                                    },
+                                    {
+                                        "x": new Date(2015, 0),
+                                        "y": 3925
+                                    },
+                                    {
+                                        "x": new Date(2016, 0),
+                                        "y": 2755
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "stackedArea",
+                                "showInLegend": true,
+                                "toolTipContent": "<span style=\"color:#4F81BC\"><strong>{name}: </strong></span> {y}",
+                                "name": "Nigeria",
+                                "dataPoints": [
+                                    {
+                                        "x": new Date(1983, 0),
+                                        "y": 1
+                                    },
+                                    {
+                                        "x": new Date(1988, 0),
+                                        "y": 4
+                                    },
+                                    {
+                                        "x": new Date(1991, 0),
+                                        "y": 10
+                                    },
+                                    {
+                                        "x": new Date(1992, 0),
+                                        "y": 135
+                                    },
+                                    {
+                                        "x": new Date(1994, 0),
+                                        "y": 15
+                                    },
+                                    {
+                                        "x": new Date(1995, 0),
+                                        "y": 1
+                                    },
+                                    {
+                                        "x": new Date(1996, 0),
+                                        "y": 24
+                                    },
+                                    {
+                                        "x": new Date(1997, 0),
+                                        "y": 107
+                                    },
+                                    {
+                                        "x": new Date(1998, 0),
+                                        "y": 9
+                                    },
+                                    {
+                                        "x": new Date(1999, 0),
+                                        "y": 134
+                                    },
+                                    {
+                                        "x": new Date(2000, 0),
+                                        "y": 0
+                                    },
+                                    {
+                                        "x": new Date(2001, 0),
+                                        "y": 3
+                                    },
+                                    {
+                                        "x": new Date(2002, 0),
+                                        "y": 28
+                                    },
+                                    {
+                                        "x": new Date(2003, 0),
+                                        "y": 28
+                                    },
+                                    {
+                                        "x": new Date(2004, 0),
+                                        "y": 41
+                                    },
+                                    {
+                                        "x": new Date(2005, 0),
+                                        "y": 19
+                                    },
+                                    {
+                                        "x": new Date(2006, 0),
+                                        "y": 254
+                                    },
+                                    {
+                                        "x": new Date(2007, 0),
+                                        "y": 82
+                                    },
+                                    {
+                                        "x": new Date(2008, 0),
+                                        "y": 72
+                                    },
+                                    {
+                                        "x": new Date(2009, 0),
+                                        "y": 316
+                                    },
+                                    {
+                                        "x": new Date(2010, 0),
+                                        "y": 117
+                                    },
+                                    {
+                                        "x": new Date(2011, 0),
+                                        "y": 447
+                                    },
+                                    {
+                                        "x": new Date(2012, 0),
+                                        "y": 1508
+                                    },
+                                    {
+                                        "x": new Date(2013, 0),
+                                        "y": 2014
+                                    },
+                                    {
+                                        "x": new Date(2014, 0),
+                                        "y": 7781
+                                    },
+                                    {
+                                        "x": new Date(2015, 0),
+                                        "y": 5351
+                                    },
+                                    {
+                                        "x": new Date(2016, 0),
+                                        "y": 2164
+                                    }
+                                ]
+                            }
+                        ]
+                    });
+                    chart1.render();
+
+                }
+            </script>
+            <div id="country" style="height: 370px; width: 100%;"></div>
+            <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+            <!-- ################################################################################################ -->
+            <p>
+                <br>
+                <br>
+                La recrudescence des activités terroristes est indéniable, mais
+                les attentats sont-ils réellement de plus en plus meurtriers, ou assistons-nous simplement à une
+                augmentation de leur nombre ? En effet, les données montrent que le nombre de personnes tuées par
+                attentat ne croît pas à la manière du nombre de victimes total. <br>
+                En dépit de ces données, cette étude a pour objectif de montrer dans quelle mesure le terrorisme
+                peut-être perçu comme plus meurtrier, et que ce n'est pas qu'un effet de masse.
+            </p>
+        </article>
+    </div>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row3">
-  <main class="hoc container clear"> 
-    <!-- main body -->
-    <!-- ################################################################################################ -->
-    <div class="sectiontitle">
-      <h6 class="heading">Ultrices suspendisse</h6>
-    </div>
-    <ul class="nospace group">
-      <li class="one_third first btmspace-50">
-        <article>
-          <h6 class="heading font-x1"><i class="fa fa-2x fa-dashcube"></i> <a href="#">Rhoncus nulla</a></h6>
-          <p>Lectus pretium pharetra aenean non turpis sit amet nisl pulvinar aliquet sit amet et ex duis imperdiet massa vel [&hellip;]</p>
-        </article>
-      </li>
-      <li class="one_third btmspace-50">
-        <article>
-          <h6 class="heading font-x1"><i class="fa fa-2x fa-language"></i> <a href="#">Fringilla molestie</a></h6>
-          <p>Donec iaculis massa egestas blandit venenatis dui ante gravida urna ut pharetra felis velit sed nunc in molestie [&hellip;]</p>
-        </article>
-      </li>
-      <li class="one_third btmspace-50">
-        <article>
-          <h6 class="heading font-x1"><i class="fa fa-2x fa-database"></i> <a href="#">Molestie rhoncus</a></h6>
-          <p>Elit vitae arcu tincidunt blandit porta ante ultricies curabitur finibus felis nec augue semper aliquam aliquam [&hellip;]</p>
-        </article>
-      </li>
-      <li class="one_third first">
-        <article>
-          <h6 class="heading font-x1"><i class="fa fa-2x fa-diamond"></i> <a href="#">Eleifend cras sit</a></h6>
-          <p>Commodo laoreet tortor praesent tincidunt vestibulum diam at dapibus sed id tempor lectus vivamus non ullamcorper [&hellip;]</p>
-        </article>
-      </li>
-      <li class="one_third">
-        <article>
-          <h6 class="heading font-x1"><i class="fa fa-2x fa-sliders"></i> <a href="#">Phasellus amet</a></h6>
-          <p>Leo cras sed accumsan eros donec leo dolor accumsan posuere odio cursus sollicitudin blandit tortor integer sed [&hellip;]</p>
-        </article>
-      </li>
-      <li class="one_third">
-        <article>
-          <h6 class="heading font-x1"><i class="fa fa-2x fa-slack"></i> <a href="#">Tincidunt posuere</a></h6>
-          <p>Elementum nibh at imperdiet nisl cras sit amet tortor elementum ligula vitae pretium lorem mauris feugiat risus et [&hellip;]</p>
-        </article>
-      </li>
-    </ul>
-    <!-- ################################################################################################ -->
-    <!-- / main body -->
-    <div class="clear"></div>
-  </main>
+<div id="mode_opératoire" class="wrapper row3">
+    <main class="hoc container clear">
+        <!-- main body -->
+        <!-- ################################################################################################ -->
+        <div class="sectiontitle">
+            <h6 class="heading">L'évolution des modes opératoires</h6>
+        </div>
+        <div class="hoc container cta clear">
+            <div class="space"></div>
+            <article>
+                <p>La première étape de notre enquête est de s'intéresser aux types d'attaques. La définition d'un acte
+                    terroriste est en elle-même assez floue, notamment à la fine frontière entre terrorisme et acte de
+                    guerre, mais ce qui va nous intéresser est l'évolution de la notion de terrorisme dans l'imaginaire
+                    collectif d'hier à aujourd'hui. Des années 70 à 90, les terroristes étaient plutôt vus comme des
+                    assassins ou une armée de rebels. Aujourd'hui, on imagine plus un "kamikaze" ou une organisation
+                    opérant de loin. D'ailleurs le taux d'attentats classé comme assassinat est passé de 20% au siècle
+                    dernier à 6% depuis la nouveau millénaire. Une autre évolution visible est celle du genre "d'arme"
+                    utilisé.
+                </p>
+                <!-- ################################################################################################ -->
+                <script>
+                    window.onload = function () {
+
+                        var chart2 = new CanvasJS.Chart("stacked_column", {
+                            animationEnabled: true,
+                            title:{
+                            },
+                            axisX: {
+                                interval: 1,
+                                intervalType: "year",
+                                valueFormatString: "YYYY"
+                            },
+                            axisY: {
+                                suffix: "%"
+                            },
+                            toolTip: {
+                                shared: true
+                            },
+                            legend: {
+                                reversed: true,
+                                verticalAlign: "center",
+                                horizontalAlign: "right"
+                            },
+                            data: [
+                                {
+                                    type: "stackedColumn100",
+                                    name: "Fake Weapons",
+                                    showInLegend: true,
+                                    xValueFormatString: "YYYY",
+                                    yValueFormatString: "#,##0",
+                                    dataPoints: [
+                                        {
+                                            x: new Date(2005,0),
+                                            y: 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    type: "stackedColumn100",
+                                    name: "Firearms",
+                                    showInLegend: true,
+                                    xValueFormatString: "YYYY",
+                                    yValueFormatString: "#,##0",
+                                    dataPoints: [
+                                        {
+                                            x: new Date(1970,0),
+                                            y: 45
+                                        },
+                                        {
+                                            x: new Date(1971,0),
+                                            y: 80
+                                        },
+                                        {
+                                            x: new Date(1972,0),
+                                            y: 289
+                                        },
+                                        {
+                                            x: new Date(1973,0),
+                                            y: 270
+                                        },
+                                        {
+                                            x: new Date(1974,0),
+                                            y: 246
+                                        },
+                                        {
+                                            x: new Date(1975,0),
+                                            y: 481
+                                        },
+                                        {
+                                            x: new Date(1976,0),
+                                            y: 395
+                                        },
+                                        {
+                                            x: new Date(1977,0),
+                                            y: 374
+                                        },
+                                        {
+                                            x: new Date(1978,0),
+                                            y: 618
+                                        },
+                                        {
+                                            x: new Date(1979,0),
+                                            y: 1150
+                                        },
+                                        {
+                                            x: new Date(1980,0),
+                                            y: 3293
+                                        },
+                                        {
+                                            x: new Date(1981,0),
+                                            y: 3495
+                                        },
+                                        {
+                                            x: new Date(1982,0),
+                                            y: 3832
+                                        },
+                                        {
+                                            x: new Date(1983,0),
+                                            y: 7380
+                                        },
+                                        {
+                                            x: new Date(1984,0),
+                                            y: 7367
+                                        },
+                                        {
+                                            x: new Date(1985,0),
+                                            y: 4571
+                                        },
+                                        {
+                                            x: new Date(1986,0),
+                                            y: 2213
+                                        },
+                                        {
+                                            x: new Date(1987,0),
+                                            y: 4107
+                                        },
+                                        {
+                                            x: new Date(1988,0),
+                                            y: 5305
+                                        },
+                                        {
+                                            x: new Date(1989,0),
+                                            y: 6012
+                                        },
+                                        {
+                                            x: new Date(1990,0),
+                                            y: 5891
+                                        },
+                                        {
+                                            x: new Date(1991,0),
+                                            y: 6848
+                                        },
+                                        {
+                                            x: new Date(1992,0),
+                                            y: 7250
+                                        },
+                                        {
+                                            x: new Date(1993,0),
+                                            y: 7250
+                                        },
+                                        {
+                                            x: new Date(1994,0),
+                                            y: 5004
+                                        },
+                                        {
+                                            x: new Date(1995,0),
+                                            y: 2906
+                                        },
+                                        {
+                                            x: new Date(1996,0),
+                                            y: 2621
+                                        },
+                                        {
+                                            x: new Date(1997,0),
+                                            y: 3375
+                                        },
+                                        {
+                                            x: new Date(1998,0),
+                                            y: 1547
+                                        },
+                                        {
+                                            x: new Date(1999,0),
+                                            y: 1572
+                                        },
+                                        {
+                                            x: new Date(2000,0),
+                                            y: 1981
+                                        },
+                                        {
+                                            x: new Date(2001,0),
+                                            y: 2746
+                                        },
+                                        {
+                                            x: new Date(2002,0),
+                                            y: 1965
+                                        },
+                                        {
+                                            x: new Date(2003,0),
+                                            y: 1180
+                                        },
+                                        {
+                                            x: new Date(2004,0),
+                                            y: 1831
+                                        },
+                                        {
+                                            x: new Date(2005,0),
+                                            y: 1928
+                                        },
+                                        {
+                                            x: new Date(2006,0),
+                                            y: 3009
+                                        },
+                                        {
+                                            x: new Date(2007,0),
+                                            y: 3487
+                                        },
+                                        {
+                                            x: new Date(2008,0),
+                                            y: 2857
+                                        },
+                                        {
+                                            x: new Date(2009,0),
+                                            y: 2052
+                                        },
+                                        {
+                                            x: new Date(2010,0),
+                                            y: 2081
+                                        },
+                                        {
+                                            x: new Date(2011,0),
+                                            y: 2667
+                                        },
+                                        {
+                                            x: new Date(2012,0),
+                                            y: 5326
+                                        },
+                                        {
+                                            x: new Date(2013,0),
+                                            y: 7199
+                                        },
+                                        {
+                                            x: new Date(2014,0),
+                                            y: 15669
+                                        },
+                                        {
+                                            x: new Date(2015,0),
+                                            y: 11987
+                                        },
+                                        {
+                                            x: new Date(2016,0),
+                                            y: 9722
+                                        }
+                                    ]
+                                },
+                                {
+                                    type: "stackedColumn100",
+                                    name: "Biological",
+                                    showInLegend: true,
+                                    xValueFormatString: "YYYY",
+                                    yValueFormatString: "#,##0",
+                                    dataPoints: [
+                                        {
+                                            x: new Date(2000,0),
+                                            y: 2
+                                        },
+                                        {
+                                            x: new Date(2001,0),
+                                            y: 7
+                                        }
+                                    ]
+                                },
+                                {
+                                    type: "stackedColumn100",
+                                    name: "Unknown",
+                                    showInLegend: true,
+                                    xValueFormatString: "YYYY",
+                                    yValueFormatString: "#,##0",
+                                    dataPoints: [
+                                        {
+                                            x: new Date(1970,0),
+                                            y: 14
+                                        },
+                                        {
+                                            x: new Date(1971,0),
+                                            y: 8
+                                        },
+                                        {
+                                            x: new Date(1972,0),
+                                            y: 9
+                                        },
+                                        {
+                                            x: new Date(1973,0),
+                                            y: 10
+                                        },
+                                        {
+                                            x: new Date(1974,0),
+                                            y: 22
+                                        },
+                                        {
+                                            x: new Date(1975,0),
+                                            y: 8
+                                        },
+                                        {
+                                            x: new Date(1976,0),
+                                            y: 25
+                                        },
+                                        {
+                                            x: new Date(1977,0),
+                                            y: 39
+                                        },
+                                        {
+                                            x: new Date(1978,0),
+                                            y: 102
+                                        },
+                                        {
+                                            x: new Date(1979,0),
+                                            y: 422
+                                        },
+                                        {
+                                            x: new Date(1980,0),
+                                            y: 338
+                                        },
+                                        {
+                                            x: new Date(1981,0),
+                                            y: 464
+                                        },
+                                        {
+                                            x: new Date(1982,0),
+                                            y: 382
+                                        },
+                                        {
+                                            x: new Date(1983,0),
+                                            y: 540
+                                        },
+                                        {
+                                            x: new Date(1984,0),
+                                            y: 2077
+                                        },
+                                        {
+                                            x: new Date(1985,0),
+                                            y: 547
+                                        },
+                                        {
+                                            x: new Date(1986,0),
+                                            y: 1552
+                                        },
+                                        {
+                                            x: new Date(1987,0),
+                                            y: 609
+                                        },
+                                        {
+                                            x: new Date(1988,0),
+                                            y: 262
+                                        },
+                                        {
+                                            x: new Date(1989,0),
+                                            y: 108
+                                        },
+                                        {
+                                            x: new Date(1990,0),
+                                            y: 110
+                                        },
+                                        {
+                                            x: new Date(1991,0),
+                                            y: 62
+                                        },
+                                        {
+                                            x: new Date(1992,0),
+                                            y: 337
+                                        },
+                                        {
+                                            x: new Date(1993,0),
+                                            y: 337
+                                        },
+                                        {
+                                            x: new Date(1994,0),
+                                            y: 1021
+                                        },
+                                        {
+                                            x: new Date(1995,0),
+                                            y: 1157
+                                        },
+                                        {
+                                            x: new Date(1996,0),
+                                            y: 2121
+                                        },
+                                        {
+                                            x: new Date(1997,0),
+                                            y: 2483
+                                        },
+                                        {
+                                            x: new Date(1998,0),
+                                            y: 557
+                                        },
+                                        {
+                                            x: new Date(1999,0),
+                                            y: 198
+                                        },
+                                        {
+                                            x: new Date(2000,0),
+                                            y: 470
+                                        },
+                                        {
+                                            x: new Date(2001,0),
+                                            y: 461
+                                        },
+                                        {
+                                            x: new Date(2002,0),
+                                            y: 277
+                                        },
+                                        {
+                                            x: new Date(2003,0),
+                                            y: 129
+                                        },
+                                        {
+                                            x: new Date(2004,0),
+                                            y: 245
+                                        },
+                                        {
+                                            x: new Date(2005,0),
+                                            y: 230
+                                        },
+                                        {
+                                            x: new Date(2006,0),
+                                            y: 215
+                                        },
+                                        {
+                                            x: new Date(2007,0),
+                                            y: 209
+                                        },
+                                        {
+                                            x: new Date(2008,0),
+                                            y: 375
+                                        },
+                                        {
+                                            x: new Date(2009,0),
+                                            y: 929
+                                        },
+                                        {
+                                            x: new Date(2010,0),
+                                            y: 606
+                                        },
+                                        {
+                                            x: new Date(2011,0),
+                                            y: 490
+                                        },
+                                        {
+                                            x: new Date(2012,0),
+                                            y: 764
+                                        },
+                                        {
+                                            x: new Date(2013,0),
+                                            y: 632
+                                        },
+                                        {
+                                            x: new Date(2014,0),
+                                            y: 4701
+                                        },
+                                        {
+                                            x: new Date(2015,0),
+                                            y: 5527
+                                        },
+                                        {
+                                            x: new Date(2016,0),
+                                            y: 5650
+                                        }
+                                    ]
+                                },
+                                {
+                                    type: "stackedColumn100",
+                                    name: "Sabotage Equipment",
+                                    showInLegend: true,
+                                    xValueFormatString: "YYYY",
+                                    yValueFormatString: "#,##0",
+                                    dataPoints: [
+                                        {
+                                            x: new Date(1981,0),
+                                            y: 3
+                                        },
+                                        {
+                                            x: new Date(1986,0),
+                                            y: 25
+                                        },
+                                        {
+                                            x: new Date(1988,0),
+                                            y: 2
+                                        },
+                                        {
+                                            x: new Date(1995,0),
+                                            y: 1
+                                        },
+                                        {
+                                            x: new Date(2000,0),
+                                            y: 12
+                                        },
+                                        {
+                                            x: new Date(2008,0),
+                                            y: 1
+                                        },
+                                        {
+                                            x: new Date(2011,0),
+                                            y: 1
+                                        },
+                                        {
+                                            x: new Date(2013,0),
+                                            y: 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    type: "stackedColumn100",
+                                    name: "Other",
+                                    showInLegend: true,
+                                    xValueFormatString: "YYYY",
+                                    yValueFormatString: "#,##0",
+                                    dataPoints: [
+                                        {
+                                            x: new Date(1984,0),
+                                            y: 2
+                                        },
+                                        {
+                                            x: new Date(1989,0),
+                                            y: 1
+                                        },
+                                        {
+                                            x: new Date(1991,0),
+                                            y: 3
+                                        },
+                                        {
+                                            x: new Date(1992,0),
+                                            y: 2
+                                        },
+                                        {
+                                            x: new Date(1993,0),
+                                            y: 2
+                                        },
+                                        {
+                                            x: new Date(1994,0),
+                                            y: 7
+                                        },
+                                        {
+                                            x: new Date(1995,0),
+                                            y: 1
+                                        },
+                                        {
+                                            x: new Date(2007,0),
+                                            y: 2
+                                        },
+                                        {
+                                            x: new Date(2008,0),
+                                            y: 2
+                                        },
+                                        {
+                                            x: new Date(2009,0),
+                                            y: 7
+                                        },
+                                        {
+                                            x: new Date(2011,0),
+                                            y: 2
+                                        },
+                                        {
+                                            x: new Date(2012,0),
+                                            y: 2
+                                        },
+                                        {
+                                            x: new Date(2014,0),
+                                            y: 7
+                                        },
+                                        {
+                                            x: new Date(2015,0),
+                                            y: 8
+                                        },
+                                        {
+                                            x: new Date(2016,0),
+                                            y: 68
+                                        }
+                                    ]
+                                },
+                                {
+                                    type: "stackedColumn100",
+                                    name: "Explosives/Bombs/Dynamite",
+                                    showInLegend: true,
+                                    xValueFormatString: "YYYY",
+                                    yValueFormatString: "#,##0",
+                                    dataPoints: [
+                                        {
+                                            x: new Date(1970,0),
+                                            y: 97
+                                        },
+                                        {
+                                            x: new Date(1971,0),
+                                            y: 82
+                                        },
+                                        {
+                                            x: new Date(1972,0),
+                                            y: 260
+                                        },
+                                        {
+                                            x: new Date(1973,0),
+                                            y: 80
+                                        },
+                                        {
+                                            x: new Date(1974,0),
+                                            y: 270
+                                        },
+                                        {
+                                            x: new Date(1975,0),
+                                            y: 125
+                                        },
+                                        {
+                                            x: new Date(1976,0),
+                                            y: 231
+                                        },
+                                        {
+                                            x: new Date(1977,0),
+                                            y: 36
+                                        },
+                                        {
+                                            x: new Date(1978,0),
+                                            y: 292
+                                        },
+                                        {
+                                            x: new Date(1979,0),
+                                            y: 474
+                                        },
+                                        {
+                                            x: new Date(1980,0),
+                                            y: 684
+                                        },
+                                        {
+                                            x: new Date(1981,0),
+                                            y: 864
+                                        },
+                                        {
+                                            x: new Date(1982,0),
+                                            y: 824
+                                        },
+                                        {
+                                            x: new Date(1983,0),
+                                            y: 1505
+                                        },
+                                        {
+                                            x: new Date(1984,0),
+                                            y: 853
+                                        },
+                                        {
+                                            x: new Date(1985,0),
+                                            y: 1845
+                                        },
+                                        {
+                                            x: new Date(1986,0),
+                                            y: 1106
+                                        },
+                                        {
+                                            x: new Date(1987,0),
+                                            y: 1640
+                                        },
+                                        {
+                                            x: new Date(1988,0),
+                                            y: 1527
+                                        },
+                                        {
+                                            x: new Date(1989,0),
+                                            y: 1732
+                                        },
+                                        {
+                                            x: new Date(1990,0),
+                                            y: 888
+                                        },
+                                        {
+                                            x: new Date(1991,0),
+                                            y: 1273
+                                        },
+                                        {
+                                            x: new Date(1992,0),
+                                            y: 1552
+                                        },
+                                        {
+                                            x: new Date(1993,0),
+                                            y: 1300
+                                        },
+                                        {
+                                            x: new Date(1994,0),
+                                            y: 1299
+                                        },
+                                        {
+                                            x: new Date(1995,0),
+                                            y: 1782
+                                        },
+                                        {
+                                            x: new Date(1996,0),
+                                            y: 1571
+                                        },
+                                        {
+                                            x: new Date(1997,0),
+                                            y: 1737
+                                        },
+                                        {
+                                            x: new Date(1998,0),
+                                            y: 1998
+                                        },
+                                        {
+                                            x: new Date(1999,0),
+                                            y: 1161
+                                        },
+                                        {
+                                            x: new Date(2000,0),
+                                            y: 1465
+                                        },
+                                        {
+                                            x: new Date(2001,0),
+                                            y: 1149
+                                        },
+                                        {
+                                            x: new Date(2002,0),
+                                            y: 1789
+                                        },
+                                        {
+                                            x: new Date(2003,0),
+                                            y: 1769
+                                        },
+                                        {
+                                            x: new Date(2004,0),
+                                            y: 3581
+                                        },
+                                        {
+                                            x: new Date(2005,0),
+                                            y: 3999
+                                        },
+                                        {
+                                            x: new Date(2006,0),
+                                            y: 6004
+                                        },
+                                        {
+                                            x: new Date(2007,0),
+                                            y: 8850
+                                        },
+                                        {
+                                            x: new Date(2008,0),
+                                            y: 5532
+                                        },
+                                        {
+                                            x: new Date(2009,0),
+                                            y: 5338
+                                        },
+                                        {
+                                            x: new Date(2010,0),
+                                            y: 4857
+                                        },
+                                        {
+                                            x: new Date(2011,0),
+                                            y: 4835
+                                        },
+                                        {
+                                            x: new Date(2012,0),
+                                            y: 9126
+                                        },
+                                        {
+                                            x: new Date(2013,0),
+                                            y: 14061
+                                        },
+                                        {
+                                            x: new Date(2014,0),
+                                            y: 22001
+                                        },
+                                        {
+                                            x: new Date(2015,0),
+                                            y: 19866
+                                        },
+                                        {
+                                            x: new Date(2016,0),
+                                            y: 18524
+                                        }
+                                    ]
+                                },
+                                {
+                                    type: "stackedColumn100",
+                                    name: "Vehicle",
+                                    showInLegend: true,
+                                    xValueFormatString: "YYYY",
+                                    yValueFormatString: "#,##0",
+                                    dataPoints: [
+                                        {
+                                            x: new Date(1970,0),
+                                            y: 1
+                                        },
+                                        {
+                                            x: new Date(1984,0),
+                                            y: 3
+                                        },
+                                        {
+                                            x: new Date(1986,0),
+                                            y: 6
+                                        },
+                                        {
+                                            x: new Date(1988,0),
+                                            y: 1
+                                        },
+                                        {
+                                            x: new Date(1990,0),
+                                            y: 1
+                                        },
+                                        {
+                                            x: new Date(1991,0),
+                                            y: 3
+                                        },
+                                        {
+                                            x: new Date(1994,0),
+                                            y: 19
+                                        },
+                                        {
+                                            x: new Date(1996,0),
+                                            y: 4
+                                        },
+                                        {
+                                            x: new Date(1997,0),
+                                            y: 1
+                                        },
+                                        {
+                                            x: new Date(1999,0),
+                                            y: 1
+                                        },
+                                        {
+                                            x: new Date(2001,0),
+                                            y: 3006
+                                        },
+                                        {
+                                            x: new Date(2002,0),
+                                            y: 1
+                                        },
+                                        {
+                                            x: new Date(2008,0),
+                                            y: 7
+                                        },
+                                        {
+                                            x: new Date(2009,0),
+                                            y: 8
+                                        },
+                                        {
+                                            x: new Date(2010,0),
+                                            y: 2
+                                        },
+                                        {
+                                            x: new Date(2011,0),
+                                            y: 8
+                                        },
+                                        {
+                                            x: new Date(2012,0),
+                                            y: 4
+                                        },
+                                        {
+                                            x: new Date(2013,0),
+                                            y: 1
+                                        },
+                                        {
+                                            x: new Date(2014,0),
+                                            y: 6
+                                        },
+                                        {
+                                            x: new Date(2015,0),
+                                            y: 20
+                                        },
+                                        {
+                                            x: new Date(2016,0),
+                                            y: 21
+                                        }
+                                    ]
+                                },
+                                {
+                                    type: "stackedColumn100",
+                                    name: "Incendiary",
+                                    showInLegend: true,
+                                    xValueFormatString: "YYYY",
+                                    yValueFormatString: "#,##0",
+                                    dataPoints: [
+                                        {
+                                            x: new Date(1970,0),
+                                            y: 14
+                                        },
+                                        {
+                                            x: new Date(1971,0),
+                                            y: 1
+                                        },
+                                        {
+                                            x: new Date(1972,0),
+                                            y: 3
+                                        },
+                                        {
+                                            x: new Date(1973,0),
+                                            y: 1
+                                        },
+                                        {
+                                            x: new Date(1976,0),
+                                            y: 9
+                                        },
+                                        {
+                                            x: new Date(1977,0),
+                                            y: 3
+                                        },
+                                        {
+                                            x: new Date(1978,0),
+                                            y: 436
+                                        },
+                                        {
+                                            x: new Date(1979,0),
+                                            y: 39
+                                        },
+                                        {
+                                            x: new Date(1980,0),
+                                            y: 59
+                                        },
+                                        {
+                                            x: new Date(1981,0),
+                                            y: 21
+                                        },
+                                        {
+                                            x: new Date(1982,0),
+                                            y: 15
+                                        },
+                                        {
+                                            x: new Date(1983,0),
+                                            y: 10
+                                        },
+                                        {
+                                            x: new Date(1984,0),
+                                            y: 52
+                                        },
+                                        {
+                                            x: new Date(1985,0),
+                                            y: 114
+                                        },
+                                        {
+                                            x: new Date(1986,0),
+                                            y: 40
+                                        },
+                                        {
+                                            x: new Date(1987,0),
+                                            y: 37
+                                        },
+                                        {
+                                            x: new Date(1988,0),
+                                            y: 22
+                                        },
+                                        {
+                                            x: new Date(1989,0),
+                                            y: 73
+                                        },
+                                        {
+                                            x: new Date(1990,0),
+                                            y: 65
+                                        },
+                                        {
+                                            x: new Date(1991,0),
+                                            y: 66
+                                        },
+                                        {
+                                            x: new Date(1992,0),
+                                            y: 359
+                                        },
+                                        {
+                                            x: new Date(1993,0),
+                                            y: 201
+                                        },
+                                        {
+                                            x: new Date(1994,0),
+                                            y: 56
+                                        },
+                                        {
+                                            x: new Date(1995,0),
+                                            y: 18
+                                        },
+                                        {
+                                            x: new Date(1996,0),
+                                            y: 65
+                                        },
+                                        {
+                                            x: new Date(1997,0),
+                                            y: 115
+                                        },
+                                        {
+                                            x: new Date(1998,0),
+                                            y: 26
+                                        },
+                                        {
+                                            x: new Date(1999,0),
+                                            y: 89
+                                        },
+                                        {
+                                            x: new Date(2000,0),
+                                            y: 72
+                                        },
+                                        {
+                                            x: new Date(2001,0),
+                                            y: 138
+                                        },
+                                        {
+                                            x: new Date(2002,0),
+                                            y: 569
+                                        },
+                                        {
+                                            x: new Date(2003,0),
+                                            y: 22
+                                        },
+                                        {
+                                            x: new Date(2004,0),
+                                            y: 23
+                                        },
+                                        {
+                                            x: new Date(2005,0),
+                                            y: 74
+                                        },
+                                        {
+                                            x: new Date(2006,0),
+                                            y: 34
+                                        },
+                                        {
+                                            x: new Date(2007,0),
+                                            y: 169
+                                        },
+                                        {
+                                            x: new Date(2008,0),
+                                            y: 105
+                                        },
+                                        {
+                                            x: new Date(2009,0),
+                                            y: 535
+                                        },
+                                        {
+                                            x: new Date(2010,0),
+                                            y: 48
+                                        },
+                                        {
+                                            x: new Date(2011,0),
+                                            y: 46
+                                        },
+                                        {
+                                            x: new Date(2012,0),
+                                            y: 80
+                                        },
+                                        {
+                                            x: new Date(2013,0),
+                                            y: 182
+                                        },
+                                        {
+                                            x: new Date(2014,0),
+                                            y: 637
+                                        },
+                                        {
+                                            x: new Date(2015,0),
+                                            y: 438
+                                        },
+                                        {
+                                            x: new Date(2016,0),
+                                            y: 302
+                                        }
+                                    ]
+                                },
+                                {
+                                    type: "stackedColumn100",
+                                    name: "Radiological",
+                                    showInLegend: true,
+                                    xValueFormatString: "YYYY",
+                                    yValueFormatString: "#,##0",
+                                    dataPoints: []
+                                },
+                                {
+                                    type: "stackedColumn100",
+                                    name: "Chemical",
+                                    showInLegend: true,
+                                    xValueFormatString: "YYYY",
+                                    yValueFormatString: "#,##0",
+                                    dataPoints: [
+                                        {
+                                            x: new Date(1973,0),
+                                            y: 1
+                                        },
+                                        {
+                                            x: new Date(1977,0),
+                                            y: 1
+                                        },
+                                        {
+                                            x: new Date(1979,0),
+                                            y: 1
+                                        },
+                                        {
+                                            x: new Date(1984,0),
+                                            y: 1
+                                        },
+                                        {
+                                            x: new Date(1987,0),
+                                            y: 19
+                                        },
+                                        {
+                                            x: new Date(1989,0),
+                                            y: 1
+                                        },
+                                        {
+                                            x: new Date(1990,0),
+                                            y: 1
+                                        },
+                                        {
+                                            x: new Date(1991,0),
+                                            y: 3
+                                        },
+                                        {
+                                            x: new Date(1992,0),
+                                            y: 8
+                                        },
+                                        {
+                                            x: new Date(1992,0),
+                                            y: 28
+                                        },
+                                        {
+                                            x: new Date(1994,0),
+                                            y: 48
+                                        },
+                                        {
+                                            x: new Date(1995,0),
+                                            y: 30
+                                        },
+                                        {
+                                            x: new Date(1998,0),
+                                            y: 2
+                                        },
+                                        {
+                                            x: new Date(1999,0),
+                                            y: 67
+                                        },
+                                        {
+                                            x: new Date(2000,0),
+                                            y: 200
+                                        },
+                                        {
+                                            x: new Date(2001,0),
+                                            y: 4
+                                        },
+                                        {
+                                            x: new Date(2002,0),
+                                            y: 10
+                                        },
+                                        {
+                                            x: new Date(2003,0),
+                                            y: 3
+                                        },
+                                        {
+                                            x: new Date(2007,0),
+                                            y: 30
+                                        },
+                                        {
+                                            x: new Date(2009,0),
+                                            y: 2
+                                        },
+                                        {
+                                            x: new Date(2012,0),
+                                            y: 1
+                                        },
+                                        {
+                                            x: new Date(2013,0),
+                                            y: 27
+                                        },
+                                        {
+                                            x: new Date(2014,0),
+                                            y: 58
+                                        },
+                                        {
+                                            x: new Date(2015,0),
+                                            y: 11
+                                        },
+                                        {
+                                            x: new Date(2016,0),
+                                            y: 51
+                                        }
+                                    ]
+                                },
+                                {
+                                    type: "stackedColumn100",
+                                    name: "Melee",
+                                    showInLegend: true,
+                                    xValueFormatString: "YYYY",
+                                    yValueFormatString: "#,##0",
+                                    dataPoints: [
+                                        {
+                                            x: new Date(1971,0),
+                                            y: 2
+                                        },
+                                        {
+                                            x: new Date(1972,0),
+                                            y: 5
+                                        },
+                                        {
+                                            x: new Date(1973,0),
+                                            y: 8
+                                        },
+                                        {
+                                            x: new Date(1974,0),
+                                            y: 4
+                                        },
+                                        {
+                                            x: new Date(1975,0),
+                                            y: 3
+                                        },
+                                        {
+                                            x: new Date(1976,0),
+                                            y: 12
+                                        },
+                                        {
+                                            x: new Date(1977,0),
+                                            y: 3
+                                        },
+                                        {
+                                            x: new Date(1978,0),
+                                            y: 11
+                                        },
+                                        {
+                                            x: new Date(1979,0),
+                                            y: 14
+                                        },
+                                        {
+                                            x: new Date(1980,0),
+                                            y: 17
+                                        },
+                                        {
+                                            x: new Date(1981,0),
+                                            y: 4
+                                        },
+                                        {
+                                            x: new Date(1982,0),
+                                            y: 82
+                                        },
+                                        {
+                                            x: new Date(1983,0),
+                                            y: 9
+                                        },
+                                        {
+                                            x: new Date(1984,0),
+                                            y: 95
+                                        },
+                                        {
+                                            x: new Date(1985,0),
+                                            y: 17
+                                        },
+                                        {
+                                            x: new Date(1986,0),
+                                            y: 34
+                                        },
+                                        {
+                                            x: new Date(1987,0),
+                                            y: 64
+                                        },
+                                        {
+                                            x: new Date(1988,0),
+                                            y: 70
+                                        },
+                                        {
+                                            x: new Date(1989,0),
+                                            y: 209
+                                        },
+                                        {
+                                            x: new Date(1990,0),
+                                            y: 192
+                                        },
+                                        {
+                                            x: new Date(1991,0),
+                                            y: 171
+                                        },
+                                        {
+                                            x: new Date(1992,0),
+                                            y: 237
+                                        },
+                                        {
+                                            x: new Date(1993,0),
+                                            y: 237
+                                        },
+                                        {
+                                            x: new Date(1994,0),
+                                            y: 237
+                                        },
+                                        {
+                                            x: new Date(1995,0),
+                                            y: 199
+                                        },
+                                        {
+                                            x: new Date(1996,0),
+                                            y: 583
+                                        },
+                                        {
+                                            x: new Date(1997,0),
+                                            y: 3217
+                                        },
+                                        {
+                                            x: new Date(1998,0),
+                                            y: 558
+                                        },
+                                        {
+                                            x: new Date(1999,0),
+                                            y: 300
+                                        },
+                                        {
+                                            x: new Date(2000,0),
+                                            y: 200
+                                        },
+                                        {
+                                            x: new Date(2001,0),
+                                            y: 232
+                                        },
+                                        {
+                                            x: new Date(2002,0),
+                                            y: 188
+                                        },
+                                        {
+                                            x: new Date(2003,0),
+                                            y: 175
+                                        },
+                                        {
+                                            x: new Date(2004,0),
+                                            y: 38
+                                        },
+                                        {
+                                            x: new Date(2005,0),
+                                            y: 81
+                                        },
+                                        {
+                                            x: new Date(2006,0),
+                                            y: 100
+                                        },
+                                        {
+                                            x: new Date(2007,0),
+                                            y: 111
+                                        },
+                                        {
+                                            x: new Date(2008,0),
+                                            y: 256
+                                        },
+                                        {
+                                            x: new Date(2009,0),
+                                            y: 400
+                                        },
+                                        {
+                                            x: new Date(2010,0),
+                                            y: 133
+                                        },
+                                        {
+                                            x: new Date(2011,0),
+                                            y: 179
+                                        },
+                                        {
+                                            x: new Date(2012,0),
+                                            y: 133
+                                        },
+                                        {
+                                            x: new Date(2013,0),
+                                            y: 128
+                                        },
+                                        {
+                                            x: new Date(2014,0),
+                                            y: 487
+                                        },
+                                        {
+                                            x: new Date(2015,0),
+                                            y: 607
+                                        },
+                                        {
+                                            x: new Date(2016,0),
+                                            y: 338
+                                        }
+                                    ]
+                                }
+                            ]
+                        });
+                        chart2.render();
+
+                    }
+                </script>
+                <div id="stacked_column" style="height: 370px; width: 100%;"></div>
+                <!-- ################################################################################################ -->
+                <p>
+                    <br>
+                    <br>
+                    La recrudescence des activités terroristes est indéniable, mais
+                    les attentats sont-ils réellement de plus en plus meurtriers, ou assistons-nous simplement à une
+                    augmentation de leur nombre ? En effet, les données montrent que le nombre de personnes tuées par
+                    attentat ne croît pas à la manière du nombre de victimes total. <br>
+                    En dépit de ces données, cette étude a pour objectif de montrer dans quelle mesure le terrorisme
+                    peut-être perçu comme plus meurtrier, et que ce n'est pas qu'un effet de masse.
+                </p>
+            </article>
+        </div>
+        <!-- ################################################################################################ -->
+        <!-- / main body -->
+        <div class="clear"></div>
+    </main>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row2">
-  <section class="hoc container clear"> 
-    <!-- ################################################################################################ -->
-    <div class="sectiontitle">
-      <h6 class="heading">Pharetra viverra</h6>
-    </div>
-    <script id="infogram_0_cfdabe98-5ca0-412b-8bdb-1692eae35e91" title="" src="https://e.infogram.com/js/dist/embed.js?6gA"
-            type="text/javascript"></script>
-    <div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px">
-      <br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank"
-             rel="nofollow">Infogram</a></div>
-    <!-- ################################################################################################ -->
-  </section>
+<div id="intro2" class="wrapper row2">
+    <section class="hoc container clear">
+        <!-- ################################################################################################ -->
+        <div class="sectiontitle">
+            <h6 class="heading">Pharetra viverra</h6>
+        </div>
+        <p> L'aidant est une personne qui répond aux besoins d'un proche en situation partielle ou totale de dépendance.
+            C'est une occupation informelle majeure qui répond à un besoin réel traduisant
+            des situations très diverses. <br>
+            Quels sont ces besoins? Qui sont les aidants? Combien de temps cela leur prend t-il? </p>
+        <div class="space"></div>
+        <script id="infogram_0_cfdabe98-5ca0-412b-8bdb-1692eae35e91" title=""
+                src="https://e.infogram.com/js/dist/embed.js?6gA"
+                type="text/javascript"></script>
+        <blockquote>In eu tortor nisi curabitur quis dui nam bibendum lectus diam dictum tincidunt ullamcorper dui et
+            ante venenatis euismod aenean quis vulputate velit elit dolor eget.
+        </blockquote>
+
+        <div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px">
+            <br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;"
+                   target="_blank"
+                   rel="nofollow">Infogram</a></div>
+        <!-- ################################################################################################ -->
+    </section>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/02.png');">
-  <div class="hoc container clear"> 
-    <!-- ################################################################################################ -->
-    <ul id="stats" class="nospace group">
-      <li class="one_quarter first"><a href="#"><i class="fa fa-3x fa-meetup"></i></a>
-        <p>Vestibulum</p>
-        <p>12345</p>
-      </li>
-      <li class="one_quarter"><a href="#"><i class="fa fa-3x fa-support"></i></a>
-        <p>Pulvinar</p>
-        <p>12345</p>
-      </li>
-      <li class="one_quarter"><a href="#"><i class="fa fa-3x fa-mortar-board"></i></a>
-        <p>Volutpat</p>
-        <p>12345</p>
-      </li>
-      <li class="one_quarter"><a href="#"><i class="fa fa-3x fa-pagelines"></i></a>
-        <p>Accumsan</p>
-        <p>12345</p>
-      </li>
-    </ul>
-    <!-- ################################################################################################ -->
-  </div>
+    <div class="hoc container clear">
+        <!-- ################################################################################################ -->
+        <ul id="stats" class="nospace group">
+            <li class="one_half first"><a href="#"><i class="fa fa-3x fa-meetup"></i></a>
+                <p>Vestibulum</p>
+                <p>12345</p>
+            </li>
+            <li class="one_half"><a href="#"><i class="fa fa-3x fa-support"></i></a>
+                <p>Pulvinar</p>
+                <p>12345</p>
+            </li>
+        </ul>
+        <!-- ################################################################################################ -->
+    </div>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row2">
-  <section class="hoc container clear"> 
-    <!-- ################################################################################################ -->
-    <div class="sectiontitle">
-      <h6 class="heading">Lectus nulla facilisi</h6>
-    </div>
-    <div class="group">
-      <figure class="one_quarter first">
-        <ul class="nospace pricelist">
-          <li>&pound;<strong>80</strong> <em>pcm</em></li>
-          <li>Vulputate</li>
-          <li>Sed at odio ligula</li>
-          <li>Nisi lacus aliquam</li>
-          <li>Turpis feugiat ornare</li>
-          <li>Gravida ultricies</li>
-          <li class="last">Ipsum magna vivamus</li>
-          <li>
-            <p>(Save 50%)</p>
-            <p><a class="btn" href="#">Condimentum</a></p>
-          </li>
-        </ul>
-      </figure>
-      <figure class="one_quarter">
-        <ul class="nospace pricelist bargain">
-          <li>&pound;<strong>100</strong> <em>pcm</em></li>
-          <li>Suspendisse</li>
-          <li>Quis varius justo</li>
-          <li>Enim ac risus maecenas</li>
-          <li>A maximus ipsum</li>
-          <li>Nec eleifend velit</li>
-          <li class="last">Nullam in dolor</li>
-          <li>
-            <p>(Save 50%)</p>
-            <p><a class="btn" href="#">Condimentum</a></p>
-          </li>
-        </ul>
-      </figure>
-      <figure class="one_quarter">
-        <ul class="nospace pricelist">
-          <li>&pound;<strong>125</strong> <em>pcm</em></li>
-          <li>Tincidunt</li>
-          <li>Sit amet lacus</li>
-          <li>Lacinia vestibulum</li>
-          <li>At vestibulum orci</li>
-          <li>Sed elementum a</li>
-          <li class="last">Augue non consequat</li>
-          <li>
-            <p>(Save 50%)</p>
-            <p><a class="btn" href="#">Condimentum</a></p>
-          </li>
-        </ul>
-      </figure>
-      <figure class="one_quarter">
-        <ul class="nospace pricelist">
-          <li>&pound;<strong>150</strong> <em>pcm</em></li>
-          <li>Condimentum</li>
-          <li>Vivamus et luctus</li>
-          <li>Enim aliquam nec</li>
-          <li>Arcu consectetur lacinia</li>
-          <li>Nisi id interdum</li>
-          <li class="last">Dui sed tellus</li>
-          <li>
-            <p>(Save 50%)</p>
-            <p><a class="btn" href="#">Condimentum</a></p>
-          </li>
-        </ul>
-      </figure>
-    </div>
-    <!-- ################################################################################################ -->
-  </section>
+    <section class="hoc container clear">
+        <!-- ################################################################################################ -->
+        <div class="sectiontitle">
+            <h6 class="heading">Lectus nulla facilisi</h6>
+        </div>
+        <div class="group">
+            <figure class="one_quarter first">
+                <ul class="nospace pricelist">
+                    <li>&pound;<strong>80</strong> <em>pcm</em></li>
+                    <li>Vulputate</li>
+                    <li>Sed at odio ligula</li>
+                    <li>Nisi lacus aliquam</li>
+                    <li>Turpis feugiat ornare</li>
+                    <li>Gravida ultricies</li>
+                    <li class="last">Ipsum magna vivamus</li>
+                    <li>
+                        <p>(Save 50%)</p>
+                        <p><a class="btn" href="#">Condimentum</a></p>
+                    </li>
+                </ul>
+            </figure>
+            <figure class="one_quarter">
+                <ul class="nospace pricelist bargain">
+                    <li>&pound;<strong>100</strong> <em>pcm</em></li>
+                    <li>Suspendisse</li>
+                    <li>Quis varius justo</li>
+                    <li>Enim ac risus maecenas</li>
+                    <li>A maximus ipsum</li>
+                    <li>Nec eleifend velit</li>
+                    <li class="last">Nullam in dolor</li>
+                    <li>
+                        <p>(Save 50%)</p>
+                        <p><a class="btn" href="#">Condimentum</a></p>
+                    </li>
+                </ul>
+            </figure>
+            <figure class="one_quarter">
+                <ul class="nospace pricelist">
+                    <li>&pound;<strong>125</strong> <em>pcm</em></li>
+                    <li>Tincidunt</li>
+                    <li>Sit amet lacus</li>
+                    <li>Lacinia vestibulum</li>
+                    <li>At vestibulum orci</li>
+                    <li>Sed elementum a</li>
+                    <li class="last">Augue non consequat</li>
+                    <li>
+                        <p>(Save 50%)</p>
+                        <p><a class="btn" href="#">Condimentum</a></p>
+                    </li>
+                </ul>
+            </figure>
+            <figure class="one_quarter">
+                <ul class="nospace pricelist">
+                    <li>&pound;<strong>150</strong> <em>pcm</em></li>
+                    <li>Condimentum</li>
+                    <li>Vivamus et luctus</li>
+                    <li>Enim aliquam nec</li>
+                    <li>Arcu consectetur lacinia</li>
+                    <li>Nisi id interdum</li>
+                    <li class="last">Dui sed tellus</li>
+                    <li>
+                        <p>(Save 50%)</p>
+                        <p><a class="btn" href="#">Condimentum</a></p>
+                    </li>
+                </ul>
+            </figure>
+        </div>
+        <!-- ################################################################################################ -->
+    </section>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row3">
-  <section class="hoc container clear"> 
-    <!-- ################################################################################################ -->
-    <div class="sectiontitle">
-      <h6 class="heading">Consectetur placerat</h6>
-    </div>
-    <div class="group team">
-      <figure class="one_quarter first"><a class="imgover" href="#"><img src="images/demo/320x320.png" alt=""></a>
-        <figcaption>
-          <h6 class="heading">A. Doe</h6>
-          <em>Eu urna pretium</em>
-          <footer>
-            <ul class="faico clear">
-              <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-              <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
-              <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
-            </ul>
-          </footer>
-        </figcaption>
-      </figure>
-      <figure class="one_quarter"><a class="imgover" href="#"><img src="images/demo/320x320.png" alt=""></a>
-        <figcaption>
-          <h6 class="heading">B. Doe</h6>
-          <em>Ullamcorper aliquam</em>
-          <footer>
-            <ul class="faico clear">
-              <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-              <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
-              <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
-            </ul>
-          </footer>
-        </figcaption>
-      </figure>
-      <figure class="one_quarter"><a class="imgover" href="#"><img src="images/demo/320x320.png" alt=""></a>
-        <figcaption>
-          <h6 class="heading">C. Doe</h6>
-          <em>Id dolor in est</em>
-          <footer>
-            <ul class="faico clear">
-              <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-              <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
-              <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
-            </ul>
-          </footer>
-        </figcaption>
-      </figure>
-      <figure class="one_quarter"><a class="imgover" href="#"><img src="images/demo/320x320.png" alt=""></a>
-        <figcaption>
-          <h6 class="heading">D. Doe</h6>
-          <em>Dignissim tempus</em>
-          <footer>
-            <ul class="faico clear">
-              <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-              <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
-              <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
-            </ul>
-          </footer>
-        </figcaption>
-      </figure>
-    </div>
-    <!-- ################################################################################################ -->
-  </section>
+    <section class="hoc container clear">
+        <!-- ################################################################################################ -->
+        <div class="sectiontitle">
+            <h6 class="heading">Consectetur placerat</h6>
+        </div>
+        <div class="group team">
+            <figure class="one_quarter first"><a class="imgover" href="#"><img src="images/demo/320x320.png" alt=""></a>
+                <figcaption>
+                    <h6 class="heading">A. Doe</h6>
+                    <em>Eu urna pretium</em>
+                    <footer>
+                        <ul class="faico clear">
+                            <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
+                        </ul>
+                    </footer>
+                </figcaption>
+            </figure>
+            <figure class="one_quarter"><a class="imgover" href="#"><img src="images/demo/320x320.png" alt=""></a>
+                <figcaption>
+                    <h6 class="heading">B. Doe</h6>
+                    <em>Ullamcorper aliquam</em>
+                    <footer>
+                        <ul class="faico clear">
+                            <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
+                        </ul>
+                    </footer>
+                </figcaption>
+            </figure>
+            <figure class="one_quarter"><a class="imgover" href="#"><img src="images/demo/320x320.png" alt=""></a>
+                <figcaption>
+                    <h6 class="heading">C. Doe</h6>
+                    <em>Id dolor in est</em>
+                    <footer>
+                        <ul class="faico clear">
+                            <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
+                        </ul>
+                    </footer>
+                </figcaption>
+            </figure>
+            <figure class="one_quarter"><a class="imgover" href="#"><img src="images/demo/320x320.png" alt=""></a>
+                <figcaption>
+                    <h6 class="heading">D. Doe</h6>
+                    <em>Dignissim tempus</em>
+                    <footer>
+                        <ul class="faico clear">
+                            <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
+                        </ul>
+                    </footer>
+                </figcaption>
+            </figure>
+        </div>
+        <!-- ################################################################################################ -->
+    </section>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/03.png');">
-  <div class="hoc container testimonials clear"> 
-    <!-- ################################################################################################ -->
-    <article><img src="images/demo/100x100.png" alt="">
-      <blockquote>In eu tortor nisi curabitur quis dui nam bibendum lectus diam dictum tincidunt ullamcorper dui et ante venenatis euismod aenean quis vulputate velit elit dolor eget.</blockquote>
-      <h6 class="heading font-x1">E. Doe</h6>
-      <em>Nulla sed imperdiet</em></article>
-    <!-- ################################################################################################ -->
-  </div>
+    <div class="hoc container testimonials clear">
+        <!-- ################################################################################################ -->
+        <article><img src="images/demo/100x100.png" alt="">
+            <blockquote>In eu tortor nisi curabitur quis dui nam bibendum lectus diam dictum tincidunt ullamcorper dui
+                et ante venenatis euismod aenean quis vulputate velit elit dolor eget.
+            </blockquote>
+            <h6 class="heading font-x1">E. Doe</h6>
+            <em>Nulla sed imperdiet</em></article>
+        <!-- ################################################################################################ -->
+    </div>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row3">
-  <div class="hoc container clear"> 
-    <!-- ################################################################################################ -->
-    <div class="sectiontitle">
-      <h6 class="heading">Auctor risus integer</h6>
+    <div class="hoc container clear">
+        <!-- ################################################################################################ -->
+        <div class="sectiontitle">
+            <h6 class="heading">Auctor risus integer</h6>
+        </div>
+        <ul class="nospace group latest">
+            <li class="one_third first">
+                <article>
+                    <figure><a class="imgover" href="#"><img src="images/demo/320x220.png" alt=""></a></figure>
+                    <div class="txtwrap">
+                        <h4 class="heading"><a href="#">Vulputate curabitur</a></h4>
+                        <ul class="nospace meta">
+                            <li><i class="fa fa-user"></i> <a href="#">Admin</a></li>
+                            <li><i class="fa fa-tag"></i> <a href="#">Category Name</a></li>
+                        </ul>
+                        <p>Ut est elit donec tempor est id cursus auctor quisque bibendum orci a lectus lacinia feugiat
+                            vestibulum ante ipsum [&hellip;]</p>
+                    </div>
+                </article>
+            </li>
+            <li class="one_third">
+                <article>
+                    <figure><a class="imgover" href="#"><img src="images/demo/320x220.png" alt=""></a></figure>
+                    <div class="txtwrap">
+                        <h4 class="heading"><a href="#">Mattis leo condimentum</a></h4>
+                        <ul class="nospace meta">
+                            <li><i class="fa fa-user"></i> <a href="#">Admin</a></li>
+                            <li><i class="fa fa-tag"></i> <a href="#">Category Name</a></li>
+                        </ul>
+                        <p>Primis in faucibus orci luctus et ultrices posuere cubilia curae curabitur porttitor turpis
+                            quis posuere pulvinar nisl [&hellip;]</p>
+                    </div>
+                </article>
+            </li>
+            <li class="one_third">
+                <article>
+                    <figure><a class="imgover" href="#"><img src="images/demo/320x220.png" alt=""></a></figure>
+                    <div class="txtwrap">
+                        <h4 class="heading"><a href="#">Scelerisque maecenas</a></h4>
+                        <ul class="nospace meta">
+                            <li><i class="fa fa-user"></i> <a href="#">Admin</a></li>
+                            <li><i class="fa fa-tag"></i> <a href="#">Category Name</a></li>
+                        </ul>
+                        <p>Erat scelerisque arcu malesuada feugiat eros dui a magna proin quis tortor fringilla eleifend
+                            sem non scelerisque eros [&hellip;]</p>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <!-- ################################################################################################ -->
     </div>
-    <ul class="nospace group latest">
-      <li class="one_third first">
-        <article>
-          <figure><a class="imgover" href="#"><img src="images/demo/320x220.png" alt=""></a></figure>
-          <div class="txtwrap">
-            <h4 class="heading"><a href="#">Vulputate curabitur</a></h4>
-            <ul class="nospace meta">
-              <li><i class="fa fa-user"></i> <a href="#">Admin</a></li>
-              <li><i class="fa fa-tag"></i> <a href="#">Category Name</a></li>
-            </ul>
-            <p>Ut est elit donec tempor est id cursus auctor quisque bibendum orci a lectus lacinia feugiat vestibulum ante ipsum [&hellip;]</p>
-          </div>
-        </article>
-      </li>
-      <li class="one_third">
-        <article>
-          <figure><a class="imgover" href="#"><img src="images/demo/320x220.png" alt=""></a></figure>
-          <div class="txtwrap">
-            <h4 class="heading"><a href="#">Mattis leo condimentum</a></h4>
-            <ul class="nospace meta">
-              <li><i class="fa fa-user"></i> <a href="#">Admin</a></li>
-              <li><i class="fa fa-tag"></i> <a href="#">Category Name</a></li>
-            </ul>
-            <p>Primis in faucibus orci luctus et ultrices posuere cubilia curae curabitur porttitor turpis quis posuere pulvinar nisl [&hellip;]</p>
-          </div>
-        </article>
-      </li>
-      <li class="one_third">
-        <article>
-          <figure><a class="imgover" href="#"><img src="images/demo/320x220.png" alt=""></a></figure>
-          <div class="txtwrap">
-            <h4 class="heading"><a href="#">Scelerisque maecenas</a></h4>
-            <ul class="nospace meta">
-              <li><i class="fa fa-user"></i> <a href="#">Admin</a></li>
-              <li><i class="fa fa-tag"></i> <a href="#">Category Name</a></li>
-            </ul>
-            <p>Erat scelerisque arcu malesuada feugiat eros dui a magna proin quis tortor fringilla eleifend sem non scelerisque eros [&hellip;]</p>
-          </div>
-        </article>
-      </li>
-    </ul>
-    <!-- ################################################################################################ -->
-  </div>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row2">
-  <article class="hoc container cta clear"> 
-    <!-- ################################################################################################ -->
-    <h3 class="heading">Suspendisse facilisis</h3>
-    <p>Tellus ut accumsan curabitur commodo.</p>
-    <footer><a class="btn" href="#">Dignissim tincidunt</a></footer>
-    <!-- ################################################################################################ -->
-  </article>
+    <article class="hoc container cta clear">
+        <!-- ################################################################################################ -->
+        <h3 class="heading">Suspendisse facilisis</h3>
+        <p>Tellus ut accumsan curabitur commodo.</p>
+        <footer><a class="btn" href="#">Dignissim tincidunt</a></footer>
+        <!-- ################################################################################################ -->
+    </article>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row4">
-  <footer id="footer" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <div class="one_third first">
-      <h6 class="heading">Luctus turpis interdum</h6>
-      <ul class="nospace btmspace-30 linklist contact">
-        <li><i class="fa fa-map-marker"></i>
-          <address>
-          Street Name &amp; Number, Town, Postcode/Zip
-          </address>
-        </li>
-        <li><i class="fa fa-phone"></i> +00 (123) 456 7890</li>
-        <li><i class="fa fa-envelope-o"></i> info@domain.com</li>
-      </ul>
-      <ul class="faico clear">
-        <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-        <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-        <li><a class="faicon-dribble" href="#"><i class="fa fa-dribbble"></i></a></li>
-        <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-        <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
-        <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
-      </ul>
-    </div>
-    <div class="one_third">
-      <h6 class="heading">Facilisis morbi interdum</h6>
-      <ul class="nospace linklist">
-        <li>
-          <article>
-            <h2 class="nospace font-x1"><a href="#">volutpat maximus vel</a></h2>
-            <time class="font-xs block btmspace-10" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
-            <p class="nospace">Primis in faucibus nam dictum malesuada dictum maecenas in magna arcu [&hellip;]</p>
-          </article>
-        </li>
-        <li>
-          <article>
-            <h2 class="nospace font-x1"><a href="#">et malesuada fames ante</a></h2>
-            <time class="font-xs block btmspace-10" datetime="2045-04-05">Thursday, 5<sup>th</sup> April 2045</time>
-            <p class="nospace">Nullam tortor ligula lobortis pharetra leo vel malesuada auctor odio nunc [&hellip;]</p>
-          </article>
-        </li>
-      </ul>
-    </div>
-    <div class="one_third">
-      <h6 class="heading">Justo condimentum tortor</h6>
-      <p class="nospace btmspace-30">Non condimentum lectus proin consequat eleifend elementum quisque nulla.</p>
-      <form method="post" action="#">
-        <fieldset>
-          <legend>Newsletter:</legend>
-          <input class="btmspace-15" type="text" value="" placeholder="Name">
-          <input class="btmspace-15" type="text" value="" placeholder="Email">
-          <button type="submit" value="submit">Submit</button>
-        </fieldset>
-      </form>
-    </div>
-    <!-- ################################################################################################ -->
-  </footer>
+    <footer id="footer" class="hoc clear">
+        <!-- ################################################################################################ -->
+        <div class="one_third first">
+            <h6 class="heading">Luctus turpis interdum</h6>
+            <ul class="nospace btmspace-30 linklist contact">
+                <li><i class="fa fa-map-marker"></i>
+                    <address>
+                        Street Name &amp; Number, Town, Postcode/Zip
+                    </address>
+                </li>
+                <li><i class="fa fa-phone"></i> +00 (123) 456 7890</li>
+                <li><i class="fa fa-envelope-o"></i> info@domain.com</li>
+            </ul>
+            <ul class="faico clear">
+                <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="faicon-dribble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
+            </ul>
+        </div>
+        <div class="one_third">
+            <h6 class="heading">Facilisis morbi interdum</h6>
+            <ul class="nospace linklist">
+                <li>
+                    <article>
+                        <h2 class="nospace font-x1"><a href="#">volutpat maximus vel</a></h2>
+                        <time class="font-xs block btmspace-10" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045
+                        </time>
+                        <p class="nospace">Primis in faucibus nam dictum malesuada dictum maecenas in magna arcu [&hellip;]</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h2 class="nospace font-x1"><a href="#">et malesuada fames ante</a></h2>
+                        <time class="font-xs block btmspace-10" datetime="2045-04-05">Thursday, 5<sup>th</sup> April
+                            2045
+                        </time>
+                        <p class="nospace">Nullam tortor ligula lobortis pharetra leo vel malesuada auctor odio nunc [&hellip;]</p>
+                    </article>
+                </li>
+            </ul>
+        </div>
+        <div class="one_third">
+            <h6 class="heading">Justo condimentum tortor</h6>
+            <p class="nospace btmspace-30">Non condimentum lectus proin consequat eleifend elementum quisque nulla.</p>
+            <form method="post" action="#">
+                <fieldset>
+                    <legend>Newsletter:</legend>
+                    <input class="btmspace-15" type="text" value="" placeholder="Name">
+                    <input class="btmspace-15" type="text" value="" placeholder="Email">
+                    <button type="submit" value="submit">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+        <!-- ################################################################################################ -->
+    </footer>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row5">
-  <div id="copyright" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="#">Domain Name</a></p>
-    <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
-    <!-- ################################################################################################ -->
-  </div>
+    <div id="copyright" class="hoc clear">
+        <!-- ################################################################################################ -->
+        <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="#">Domain Name</a></p>
+        <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/"
+                                           title="Free Website Templates">OS Templates</a></p>
+        <!-- ################################################################################################ -->
+    </div>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
