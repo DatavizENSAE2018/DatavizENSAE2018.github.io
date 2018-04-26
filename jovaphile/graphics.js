@@ -2265,7 +2265,8 @@ window.onload = function () {
     WeaponsChart.render();
 
     var CivilPie1Chart = new CanvasJS.Chart("CivilPie1", {
-        exportEnabled: true,
+        backgroundColor: "#fafafa",
+        exportEnabled: false,
         animationEnabled: true,
         title:{
             text: "1970-1994"
@@ -2308,7 +2309,8 @@ window.onload = function () {
         }]
     });
     var CivilPie2Chart = new CanvasJS.Chart("CivilPie2", {
-        exportEnabled: true,
+        backgroundColor: "#fafafa",
+        exportEnabled: false,
         animationEnabled: true,
         title:{
             text: "1995-2016"
