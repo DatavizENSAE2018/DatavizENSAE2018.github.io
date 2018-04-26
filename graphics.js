@@ -921,7 +921,7 @@ window.onload = function () {
         title:{
         },
         axisX: {
-            interval: 1,
+            interval: 5,
             intervalType: "year",
             valueFormatString: "YYYY"
         },
