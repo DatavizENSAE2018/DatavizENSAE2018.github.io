@@ -21,6 +21,7 @@ window.onload = function () {
                 "showInLegend": true,
                 "toolTipContent": "<span style=\"color:#4F81BC\"><strong>{name}: </strong></span> {y}",
                 "name": "Reste du monde",
+                markerType: "none",
                 "dataPoints": [
                     {
                         "x": new Date(1970,0),
@@ -213,6 +214,7 @@ window.onload = function () {
                 "showInLegend": true,
                 "toolTipContent": "<span style=\"color:#4F81BC\"><strong>{name}: </strong></span> {y}",
                 "name": "Pakistan",
+                markerType: "none",
                 "dataPoints": [
                     {
                         "x": new Date(1970,0),
@@ -389,6 +391,7 @@ window.onload = function () {
                 "showInLegend": true,
                 "toolTipContent": "<span style=\"color:#4F81BC\"><strong>{name}: </strong></span> {y}",
                 "name": "Inde",
+                markerType: "none",
                 "dataPoints": [
                     {
                         "x": new Date(1972,0),
@@ -561,6 +564,7 @@ window.onload = function () {
                 "showInLegend": true,
                 "toolTipContent": "<span style=\"color:#4F81BC\"><strong>{name}: </strong></span> {y}",
                 "name": "Afghanistan",
+                markerType: "none",
                 "dataPoints": [
                     {
                         "x": new Date(1973,0),
@@ -693,6 +697,7 @@ window.onload = function () {
                 "showInLegend": true,
                 "toolTipContent": "<span style=\"color:#4F81BC\"><strong>{name}: </strong></span> {y}",
                 "name": "Syrie",
+                markerType: "none",
                 "dataPoints": [
                     {
                         "x": new Date(1974,0),
@@ -797,6 +802,7 @@ window.onload = function () {
                 "showInLegend": true,
                 "toolTipContent": "<span style=\"color:#4F81BC\"><strong>{name}: </strong></span> {y}",
                 "name": "Nigeria",
+                markerType: "none",
                 "dataPoints": [
                     {
                         "x": new Date(1983,0),
@@ -2285,6 +2291,414 @@ window.onload = function () {
     CivilPie1Chart.render();
     CivilPie2Chart.render();
 
+    var NatVsIslamEvChart = new CanvasJS.Chart("NatVsIslamEv", {
+        animationEnabled: true,
+        title:{
+        },
+        axisX: {
+            valueFormatString: "YYYY"
+        },
+        axisY: {
+            title: "Victimes",
+            includeZero: false
+        },
+        legend:{
+            cursor: "pointer",
+            fontSize: 16},
+        toolTip:{
+            shared: true
+        },
+        data: [
+            {
+                "type": "spline",
+                "name": "Islamistes",
+                "showInLegend": true,
+                "yValueFormatString": "#,##0\" victimes\"",
+                markerType: "none",
+                "dataPoints": [
+                    {
+                        "x": new Date(1970,0),
+                        "y": 0
+                    },
+                    {
+                        "x": new Date(1971,0),
+                        "y": 0
+                    },
+                    {
+                        "x": new Date(1972,0),
+                        "y": 0
+                    },
+                    {
+                        "x": new Date(1973,0),
+                        "y": 0
+                    },
+                    {
+                        "x": new Date(1974,0),
+                        "y": 0
+                    },
+                    {
+                        "x": new Date(1975,0),
+                        "y": 0
+                    },
+                    {
+                        "x": new Date(1976,0),
+                        "y": 0
+                    },
+                    {
+                        "x": new Date(1977,0),
+                        "y": 0
+                    },
+                    {
+                        "x": new Date(1978,0),
+                        "y": 0
+                    },
+                    {
+                        "x": new Date(1979,0),
+                        "y": 1
+                    },
+                    {
+                        "x": new Date(1980,0),
+                        "y": 1
+                    },
+                    {
+                        "x": new Date(1981,0),
+                        "y": 0
+                    },
+                    {
+                        "x": new Date(1982,0),
+                        "y": 0
+                    },
+                    {
+                        "x": new Date(1983,0),
+                        "y": 0
+                    },
+                    {
+                        "x": new Date(1984,0),
+                        "y": 0
+                    },
+                    {
+                        "x": new Date(1985,0),
+                        "y": 1
+                    },
+                    {
+                        "x": new Date(1986,0),
+                        "y": 0
+                    },
+                    {
+                        "x": new Date(1987,0),
+                        "y": 6
+                    },
+                    {
+                        "x": new Date(1988,0),
+                        "y": 1
+                    },
+                    {
+                        "x": new Date(1989,0),
+                        "y": 0
+                    },
+                    {
+                        "x": new Date(1990,0),
+                        "y": 1
+                    },
+                    {
+                        "x": new Date(1991,0),
+                        "y": 0
+                    },
+                    {
+                        "x": new Date(1992,0),
+                        "y": 4
+                    },
+                    {
+                        "x": new Date(1994,0),
+                        "y": 5
+                    },
+                    {
+                        "x": new Date(1995,0),
+                        "y": 4
+                    },
+                    {
+                        "x": new Date(1996,0),
+                        "y": 0
+                    },
+                    {
+                        "x": new Date(1997,0),
+                        "y": 0
+                    },
+                    {
+                        "x": new Date(1998,0),
+                        "y": 3
+                    },
+                    {
+                        "x": new Date(1999,0),
+                        "y": 15
+                    },
+                    {
+                        "x": new Date(2000,0),
+                        "y": 6
+                    },
+                    {
+                        "x": new Date(2001,0),
+                        "y": 13
+                    },
+                    {
+                        "x": new Date(2002,0),
+                        "y": 34
+                    },
+                    {
+                        "x": new Date(2003,0),
+                        "y": 81
+                    },
+                    {
+                        "x": new Date(2004,0),
+                        "y": 75
+                    },
+                    {
+                        "x": new Date(2005,0),
+                        "y": 190
+                    },
+                    {
+                        "x": new Date(2006,0),
+                        "y": 173
+                    },
+                    {
+                        "x": new Date(2007,0),
+                        "y": 266
+                    },
+                    {
+                        "x": new Date(2008,0),
+                        "y": 439
+                    },
+                    {
+                        "x": new Date(2009,0),
+                        "y": 514
+                    },
+                    {
+                        "x": new Date(2010,0),
+                        "y": 649
+                    },
+                    {
+                        "x": new Date(2011,0),
+                        "y": 719
+                    },
+                    {
+                        "x": new Date(2012,0),
+                        "y": 2108
+                    },
+                    {
+                        "x": new Date(2013,0),
+                        "y": 2059
+                    },
+                    {
+                        "x": new Date(2014,0),
+                        "y": 3835
+                    },
+                    {
+                        "x": new Date(2015,0),
+                        "y": 3749
+                    },
+                    {
+                        "x": new Date(2016,0),
+                        "y": 3530
+                    }
+                ]
+            },
+            {
+                "type": "spline",
+                "name": "Nationalistes",
+                "showInLegend": true,
+                "yValueFormatString": "#,##0\" victimes\"",
+                markerType: "none",
+                "dataPoints": [
+                    {
+                        "x": new Date(1970,0),
+                        "y": 13
+                    },
+                    {
+                        "x": new Date(1971,0),
+                        "y": 62
+                    },
+                    {
+                        "x": new Date(1972,0),
+                        "y": 168
+                    },
+                    {
+                        "x": new Date(1973,0),
+                        "y": 116
+                    },
+                    {
+                        "x": new Date(1974,0),
+                        "y": 125
+                    },
+                    {
+                        "x": new Date(1975,0),
+                        "y": 99
+                    },
+                    {
+                        "x": new Date(1976,0),
+                        "y": 120
+                    },
+                    {
+                        "x": new Date(1977,0),
+                        "y": 205
+                    },
+                    {
+                        "x": new Date(1978,0),
+                        "y": 282
+                    },
+                    {
+                        "x": new Date(1979,0),
+                        "y": 590
+                    },
+                    {
+                        "x": new Date(1980,0),
+                        "y": 466
+                    },
+                    {
+                        "x": new Date(1981,0),
+                        "y": 401
+                    },
+                    {
+                        "x": new Date(1982,0),
+                        "y": 573
+                    },
+                    {
+                        "x": new Date(1983,0),
+                        "y": 1022
+                    },
+                    {
+                        "x": new Date(1984,0),
+                        "y": 1212
+                    },
+                    {
+                        "x": new Date(1985,0),
+                        "y": 1219
+                    },
+                    {
+                        "x": new Date(1986,0),
+                        "y": 1117
+                    },
+                    {
+                        "x": new Date(1987,0),
+                        "y": 1699
+                    },
+                    {
+                        "x": new Date(1988,0),
+                        "y": 1826
+                    },
+                    {
+                        "x": new Date(1989,0),
+                        "y": 1845
+                    },
+                    {
+                        "x": new Date(1990,0),
+                        "y": 1596
+                    },
+                    {
+                        "x": new Date(1991,0),
+                        "y": 2058
+                    },
+                    {
+                        "x": new Date(1992,0),
+                        "y": 1499
+                    },
+                    {
+                        "x": new Date(1994,0),
+                        "y": 716
+                    },
+                    {
+                        "x": new Date(1995,0),
+                        "y": 425
+                    },
+                    {
+                        "x": new Date(1996,0),
+                        "y": 484
+                    },
+                    {
+                        "x": new Date(1997,0),
+                        "y": 440
+                    },
+                    {
+                        "x": new Date(1998,0),
+                        "y": 99
+                    },
+                    {
+                        "x": new Date(1999,0),
+                        "y": 183
+                    },
+                    {
+                        "x": new Date(2000,0),
+                        "y": 227
+                    },
+                    {
+                        "x": new Date(2001,0),
+                        "y": 227
+                    },
+                    {
+                        "x": new Date(2002,0),
+                        "y": 229
+                    },
+                    {
+                        "x": new Date(2003,0),
+                        "y": 142
+                    },
+                    {
+                        "x": new Date(2004,0),
+                        "y": 145
+                    },
+                    {
+                        "x": new Date(2005,0),
+                        "y": 264
+                    },
+                    {
+                        "x": new Date(2006,0),
+                        "y": 325
+                    },
+                    {
+                        "x": new Date(2007,0),
+                        "y": 188
+                    },
+                    {
+                        "x": new Date(2008,0),
+                        "y": 459
+                    },
+                    {
+                        "x": new Date(2009,0),
+                        "y": 603
+                    },
+                    {
+                        "x": new Date(2010,0),
+                        "y": 707
+                    },
+                    {
+                        "x": new Date(2011,0),
+                        "y": 587
+                    },
+                    {
+                        "x": new Date(2012,0),
+                        "y": 645
+                    },
+                    {
+                        "x": new Date(2013,0),
+                        "y": 638
+                    },
+                    {
+                        "x": new Date(2014,0),
+                        "y": 1281
+                    },
+                    {
+                        "x": new Date(2015,0),
+                        "y": 1431
+                    },
+                    {
+                        "x": new Date(2016,0),
+                        "y": 1006
+                    }
+                ]
+            }
+        ]
+    });
+    NatVsIslamEvChart.render();
+
     var NatVsIslamChart = new CanvasJS.Chart("NatVsIslam", {
         animationEnabled: true,
         theme: "light2", //"light1", "dark1", "dark2"
@@ -2398,6 +2812,7 @@ window.onload = function () {
         ]
     });
     NatVsIslamChart.render();
+
 }
 
 function explodePie (e) {
