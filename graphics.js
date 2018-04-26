@@ -935,20 +935,7 @@ window.onload = function () {
         data: [
             {
                 type: "stackedColumn100",
-                name: "Fake Weapons",
-                showInLegend: true,
-                xValueFormatString: "YYYY",
-                yValueFormatString: "#,##0",
-                dataPoints: [
-                    {
-                        x: new Date(2005,0),
-                        y: 1
-                    }
-                ]
-            },
-            {
-                type: "stackedColumn100",
-                name: "Firearms",
+                name: "Armes à feu",
                 showInLegend: true,
                 xValueFormatString: "YYYY",
                 yValueFormatString: "#,##0",
@@ -1145,331 +1132,7 @@ window.onload = function () {
             },
             {
                 type: "stackedColumn100",
-                name: "Biological",
-                showInLegend: true,
-                xValueFormatString: "YYYY",
-                yValueFormatString: "#,##0",
-                dataPoints: [
-                    {
-                        x: new Date(2000,0),
-                        y: 2
-                    },
-                    {
-                        x: new Date(2001,0),
-                        y: 7
-                    }
-                ]
-            },
-            {
-                type: "stackedColumn100",
-                name: "Unknown",
-                showInLegend: true,
-                xValueFormatString: "YYYY",
-                yValueFormatString: "#,##0",
-                dataPoints: [
-                    {
-                        x: new Date(1970,0),
-                        y: 14
-                    },
-                    {
-                        x: new Date(1971,0),
-                        y: 8
-                    },
-                    {
-                        x: new Date(1972,0),
-                        y: 9
-                    },
-                    {
-                        x: new Date(1973,0),
-                        y: 10
-                    },
-                    {
-                        x: new Date(1974,0),
-                        y: 22
-                    },
-                    {
-                        x: new Date(1975,0),
-                        y: 8
-                    },
-                    {
-                        x: new Date(1976,0),
-                        y: 25
-                    },
-                    {
-                        x: new Date(1977,0),
-                        y: 39
-                    },
-                    {
-                        x: new Date(1978,0),
-                        y: 102
-                    },
-                    {
-                        x: new Date(1979,0),
-                        y: 422
-                    },
-                    {
-                        x: new Date(1980,0),
-                        y: 338
-                    },
-                    {
-                        x: new Date(1981,0),
-                        y: 464
-                    },
-                    {
-                        x: new Date(1982,0),
-                        y: 382
-                    },
-                    {
-                        x: new Date(1983,0),
-                        y: 540
-                    },
-                    {
-                        x: new Date(1984,0),
-                        y: 2077
-                    },
-                    {
-                        x: new Date(1985,0),
-                        y: 547
-                    },
-                    {
-                        x: new Date(1986,0),
-                        y: 1552
-                    },
-                    {
-                        x: new Date(1987,0),
-                        y: 609
-                    },
-                    {
-                        x: new Date(1988,0),
-                        y: 262
-                    },
-                    {
-                        x: new Date(1989,0),
-                        y: 108
-                    },
-                    {
-                        x: new Date(1990,0),
-                        y: 110
-                    },
-                    {
-                        x: new Date(1991,0),
-                        y: 62
-                    },
-                    {
-                        x: new Date(1992,0),
-                        y: 337
-                    },
-                    {
-                        x: new Date(1993,0),
-                        y: 337
-                    },
-                    {
-                        x: new Date(1994,0),
-                        y: 1021
-                    },
-                    {
-                        x: new Date(1995,0),
-                        y: 1157
-                    },
-                    {
-                        x: new Date(1996,0),
-                        y: 2121
-                    },
-                    {
-                        x: new Date(1997,0),
-                        y: 2483
-                    },
-                    {
-                        x: new Date(1998,0),
-                        y: 557
-                    },
-                    {
-                        x: new Date(1999,0),
-                        y: 198
-                    },
-                    {
-                        x: new Date(2000,0),
-                        y: 470
-                    },
-                    {
-                        x: new Date(2001,0),
-                        y: 461
-                    },
-                    {
-                        x: new Date(2002,0),
-                        y: 277
-                    },
-                    {
-                        x: new Date(2003,0),
-                        y: 129
-                    },
-                    {
-                        x: new Date(2004,0),
-                        y: 245
-                    },
-                    {
-                        x: new Date(2005,0),
-                        y: 230
-                    },
-                    {
-                        x: new Date(2006,0),
-                        y: 215
-                    },
-                    {
-                        x: new Date(2007,0),
-                        y: 209
-                    },
-                    {
-                        x: new Date(2008,0),
-                        y: 375
-                    },
-                    {
-                        x: new Date(2009,0),
-                        y: 929
-                    },
-                    {
-                        x: new Date(2010,0),
-                        y: 606
-                    },
-                    {
-                        x: new Date(2011,0),
-                        y: 490
-                    },
-                    {
-                        x: new Date(2012,0),
-                        y: 764
-                    },
-                    {
-                        x: new Date(2013,0),
-                        y: 632
-                    },
-                    {
-                        x: new Date(2014,0),
-                        y: 4701
-                    },
-                    {
-                        x: new Date(2015,0),
-                        y: 5527
-                    },
-                    {
-                        x: new Date(2016,0),
-                        y: 5650
-                    }
-                ]
-            },
-            {
-                type: "stackedColumn100",
-                name: "Sabotage Equipment",
-                showInLegend: true,
-                xValueFormatString: "YYYY",
-                yValueFormatString: "#,##0",
-                dataPoints: [
-                    {
-                        x: new Date(1981,0),
-                        y: 3
-                    },
-                    {
-                        x: new Date(1986,0),
-                        y: 25
-                    },
-                    {
-                        x: new Date(1988,0),
-                        y: 2
-                    },
-                    {
-                        x: new Date(1995,0),
-                        y: 1
-                    },
-                    {
-                        x: new Date(2000,0),
-                        y: 12
-                    },
-                    {
-                        x: new Date(2008,0),
-                        y: 1
-                    },
-                    {
-                        x: new Date(2011,0),
-                        y: 1
-                    },
-                    {
-                        x: new Date(2013,0),
-                        y: 4
-                    }
-                ]
-            },
-            {
-                type: "stackedColumn100",
-                name: "Other",
-                showInLegend: true,
-                xValueFormatString: "YYYY",
-                yValueFormatString: "#,##0",
-                dataPoints: [
-                    {
-                        x: new Date(1984,0),
-                        y: 2
-                    },
-                    {
-                        x: new Date(1989,0),
-                        y: 1
-                    },
-                    {
-                        x: new Date(1991,0),
-                        y: 3
-                    },
-                    {
-                        x: new Date(1992,0),
-                        y: 2
-                    },
-                    {
-                        x: new Date(1993,0),
-                        y: 2
-                    },
-                    {
-                        x: new Date(1994,0),
-                        y: 7
-                    },
-                    {
-                        x: new Date(1995,0),
-                        y: 1
-                    },
-                    {
-                        x: new Date(2007,0),
-                        y: 2
-                    },
-                    {
-                        x: new Date(2008,0),
-                        y: 2
-                    },
-                    {
-                        x: new Date(2009,0),
-                        y: 7
-                    },
-                    {
-                        x: new Date(2011,0),
-                        y: 2
-                    },
-                    {
-                        x: new Date(2012,0),
-                        y: 2
-                    },
-                    {
-                        x: new Date(2014,0),
-                        y: 7
-                    },
-                    {
-                        x: new Date(2015,0),
-                        y: 8
-                    },
-                    {
-                        x: new Date(2016,0),
-                        y: 68
-                    }
-                ]
-            },
-            {
-                type: "stackedColumn100",
-                name: "Explosives/Bombs/Dynamite",
+                name: "Explosifs",
                 showInLegend: true,
                 xValueFormatString: "YYYY",
                 yValueFormatString: "#,##0",
@@ -1666,406 +1329,7 @@ window.onload = function () {
             },
             {
                 type: "stackedColumn100",
-                name: "Vehicle",
-                showInLegend: true,
-                xValueFormatString: "YYYY",
-                yValueFormatString: "#,##0",
-                dataPoints: [
-                    {
-                        x: new Date(1970,0),
-                        y: 1
-                    },
-                    {
-                        x: new Date(1984,0),
-                        y: 3
-                    },
-                    {
-                        x: new Date(1986,0),
-                        y: 6
-                    },
-                    {
-                        x: new Date(1988,0),
-                        y: 1
-                    },
-                    {
-                        x: new Date(1990,0),
-                        y: 1
-                    },
-                    {
-                        x: new Date(1991,0),
-                        y: 3
-                    },
-                    {
-                        x: new Date(1994,0),
-                        y: 19
-                    },
-                    {
-                        x: new Date(1996,0),
-                        y: 4
-                    },
-                    {
-                        x: new Date(1997,0),
-                        y: 1
-                    },
-                    {
-                        x: new Date(1999,0),
-                        y: 1
-                    },
-                    {
-                        x: new Date(2001,0),
-                        y: 3006
-                    },
-                    {
-                        x: new Date(2002,0),
-                        y: 1
-                    },
-                    {
-                        x: new Date(2008,0),
-                        y: 7
-                    },
-                    {
-                        x: new Date(2009,0),
-                        y: 8
-                    },
-                    {
-                        x: new Date(2010,0),
-                        y: 2
-                    },
-                    {
-                        x: new Date(2011,0),
-                        y: 8
-                    },
-                    {
-                        x: new Date(2012,0),
-                        y: 4
-                    },
-                    {
-                        x: new Date(2013,0),
-                        y: 1
-                    },
-                    {
-                        x: new Date(2014,0),
-                        y: 6
-                    },
-                    {
-                        x: new Date(2015,0),
-                        y: 20
-                    },
-                    {
-                        x: new Date(2016,0),
-                        y: 21
-                    }
-                ]
-            },
-            {
-                type: "stackedColumn100",
-                name: "Incendiary",
-                showInLegend: true,
-                xValueFormatString: "YYYY",
-                yValueFormatString: "#,##0",
-                dataPoints: [
-                    {
-                        x: new Date(1970,0),
-                        y: 14
-                    },
-                    {
-                        x: new Date(1971,0),
-                        y: 1
-                    },
-                    {
-                        x: new Date(1972,0),
-                        y: 3
-                    },
-                    {
-                        x: new Date(1973,0),
-                        y: 1
-                    },
-                    {
-                        x: new Date(1976,0),
-                        y: 9
-                    },
-                    {
-                        x: new Date(1977,0),
-                        y: 3
-                    },
-                    {
-                        x: new Date(1978,0),
-                        y: 436
-                    },
-                    {
-                        x: new Date(1979,0),
-                        y: 39
-                    },
-                    {
-                        x: new Date(1980,0),
-                        y: 59
-                    },
-                    {
-                        x: new Date(1981,0),
-                        y: 21
-                    },
-                    {
-                        x: new Date(1982,0),
-                        y: 15
-                    },
-                    {
-                        x: new Date(1983,0),
-                        y: 10
-                    },
-                    {
-                        x: new Date(1984,0),
-                        y: 52
-                    },
-                    {
-                        x: new Date(1985,0),
-                        y: 114
-                    },
-                    {
-                        x: new Date(1986,0),
-                        y: 40
-                    },
-                    {
-                        x: new Date(1987,0),
-                        y: 37
-                    },
-                    {
-                        x: new Date(1988,0),
-                        y: 22
-                    },
-                    {
-                        x: new Date(1989,0),
-                        y: 73
-                    },
-                    {
-                        x: new Date(1990,0),
-                        y: 65
-                    },
-                    {
-                        x: new Date(1991,0),
-                        y: 66
-                    },
-                    {
-                        x: new Date(1992,0),
-                        y: 359
-                    },
-                    {
-                        x: new Date(1993,0),
-                        y: 201
-                    },
-                    {
-                        x: new Date(1994,0),
-                        y: 56
-                    },
-                    {
-                        x: new Date(1995,0),
-                        y: 18
-                    },
-                    {
-                        x: new Date(1996,0),
-                        y: 65
-                    },
-                    {
-                        x: new Date(1997,0),
-                        y: 115
-                    },
-                    {
-                        x: new Date(1998,0),
-                        y: 26
-                    },
-                    {
-                        x: new Date(1999,0),
-                        y: 89
-                    },
-                    {
-                        x: new Date(2000,0),
-                        y: 72
-                    },
-                    {
-                        x: new Date(2001,0),
-                        y: 138
-                    },
-                    {
-                        x: new Date(2002,0),
-                        y: 569
-                    },
-                    {
-                        x: new Date(2003,0),
-                        y: 22
-                    },
-                    {
-                        x: new Date(2004,0),
-                        y: 23
-                    },
-                    {
-                        x: new Date(2005,0),
-                        y: 74
-                    },
-                    {
-                        x: new Date(2006,0),
-                        y: 34
-                    },
-                    {
-                        x: new Date(2007,0),
-                        y: 169
-                    },
-                    {
-                        x: new Date(2008,0),
-                        y: 105
-                    },
-                    {
-                        x: new Date(2009,0),
-                        y: 535
-                    },
-                    {
-                        x: new Date(2010,0),
-                        y: 48
-                    },
-                    {
-                        x: new Date(2011,0),
-                        y: 46
-                    },
-                    {
-                        x: new Date(2012,0),
-                        y: 80
-                    },
-                    {
-                        x: new Date(2013,0),
-                        y: 182
-                    },
-                    {
-                        x: new Date(2014,0),
-                        y: 637
-                    },
-                    {
-                        x: new Date(2015,0),
-                        y: 438
-                    },
-                    {
-                        x: new Date(2016,0),
-                        y: 302
-                    }
-                ]
-            },
-            {
-                type: "stackedColumn100",
-                name: "Radiological",
-                showInLegend: true,
-                xValueFormatString: "YYYY",
-                yValueFormatString: "#,##0",
-                dataPoints: []
-            },
-            {
-                type: "stackedColumn100",
-                name: "Chemical",
-                showInLegend: true,
-                xValueFormatString: "YYYY",
-                yValueFormatString: "#,##0",
-                dataPoints: [
-                    {
-                        x: new Date(1973,0),
-                        y: 1
-                    },
-                    {
-                        x: new Date(1977,0),
-                        y: 1
-                    },
-                    {
-                        x: new Date(1979,0),
-                        y: 1
-                    },
-                    {
-                        x: new Date(1984,0),
-                        y: 1
-                    },
-                    {
-                        x: new Date(1987,0),
-                        y: 19
-                    },
-                    {
-                        x: new Date(1989,0),
-                        y: 1
-                    },
-                    {
-                        x: new Date(1990,0),
-                        y: 1
-                    },
-                    {
-                        x: new Date(1991,0),
-                        y: 3
-                    },
-                    {
-                        x: new Date(1992,0),
-                        y: 8
-                    },
-                    {
-                        x: new Date(1992,0),
-                        y: 28
-                    },
-                    {
-                        x: new Date(1994,0),
-                        y: 48
-                    },
-                    {
-                        x: new Date(1995,0),
-                        y: 30
-                    },
-                    {
-                        x: new Date(1998,0),
-                        y: 2
-                    },
-                    {
-                        x: new Date(1999,0),
-                        y: 67
-                    },
-                    {
-                        x: new Date(2000,0),
-                        y: 200
-                    },
-                    {
-                        x: new Date(2001,0),
-                        y: 4
-                    },
-                    {
-                        x: new Date(2002,0),
-                        y: 10
-                    },
-                    {
-                        x: new Date(2003,0),
-                        y: 3
-                    },
-                    {
-                        x: new Date(2007,0),
-                        y: 30
-                    },
-                    {
-                        x: new Date(2009,0),
-                        y: 2
-                    },
-                    {
-                        x: new Date(2012,0),
-                        y: 1
-                    },
-                    {
-                        x: new Date(2013,0),
-                        y: 27
-                    },
-                    {
-                        x: new Date(2014,0),
-                        y: 58
-                    },
-                    {
-                        x: new Date(2015,0),
-                        y: 11
-                    },
-                    {
-                        x: new Date(2016,0),
-                        y: 51
-                    }
-                ]
-            },
-            {
-                type: "stackedColumn100",
-                name: "Melee",
+                name: "Mêlée",
                 showInLegend: true,
                 xValueFormatString: "YYYY",
                 yValueFormatString: "#,##0",
@@ -2255,6 +1519,712 @@ window.onload = function () {
                         y: 338
                     }
                 ]
+            },
+            {
+                type: "stackedColumn100",
+                name: "Inconnu",
+                showInLegend: true,
+                xValueFormatString: "YYYY",
+                yValueFormatString: "#,##0",
+                dataPoints: [
+                    {
+                        x: new Date(1970,0),
+                        y: 14
+                    },
+                    {
+                        x: new Date(1971,0),
+                        y: 8
+                    },
+                    {
+                        x: new Date(1972,0),
+                        y: 9
+                    },
+                    {
+                        x: new Date(1973,0),
+                        y: 10
+                    },
+                    {
+                        x: new Date(1974,0),
+                        y: 22
+                    },
+                    {
+                        x: new Date(1975,0),
+                        y: 8
+                    },
+                    {
+                        x: new Date(1976,0),
+                        y: 25
+                    },
+                    {
+                        x: new Date(1977,0),
+                        y: 39
+                    },
+                    {
+                        x: new Date(1978,0),
+                        y: 102
+                    },
+                    {
+                        x: new Date(1979,0),
+                        y: 422
+                    },
+                    {
+                        x: new Date(1980,0),
+                        y: 338
+                    },
+                    {
+                        x: new Date(1981,0),
+                        y: 464
+                    },
+                    {
+                        x: new Date(1982,0),
+                        y: 382
+                    },
+                    {
+                        x: new Date(1983,0),
+                        y: 540
+                    },
+                    {
+                        x: new Date(1984,0),
+                        y: 2077
+                    },
+                    {
+                        x: new Date(1985,0),
+                        y: 547
+                    },
+                    {
+                        x: new Date(1986,0),
+                        y: 1552
+                    },
+                    {
+                        x: new Date(1987,0),
+                        y: 609
+                    },
+                    {
+                        x: new Date(1988,0),
+                        y: 262
+                    },
+                    {
+                        x: new Date(1989,0),
+                        y: 108
+                    },
+                    {
+                        x: new Date(1990,0),
+                        y: 110
+                    },
+                    {
+                        x: new Date(1991,0),
+                        y: 62
+                    },
+                    {
+                        x: new Date(1992,0),
+                        y: 337
+                    },
+                    {
+                        x: new Date(1993,0),
+                        y: 337
+                    },
+                    {
+                        x: new Date(1994,0),
+                        y: 1021
+                    },
+                    {
+                        x: new Date(1995,0),
+                        y: 1157
+                    },
+                    {
+                        x: new Date(1996,0),
+                        y: 2121
+                    },
+                    {
+                        x: new Date(1997,0),
+                        y: 2483
+                    },
+                    {
+                        x: new Date(1998,0),
+                        y: 557
+                    },
+                    {
+                        x: new Date(1999,0),
+                        y: 198
+                    },
+                    {
+                        x: new Date(2000,0),
+                        y: 470
+                    },
+                    {
+                        x: new Date(2001,0),
+                        y: 461
+                    },
+                    {
+                        x: new Date(2002,0),
+                        y: 277
+                    },
+                    {
+                        x: new Date(2003,0),
+                        y: 129
+                    },
+                    {
+                        x: new Date(2004,0),
+                        y: 245
+                    },
+                    {
+                        x: new Date(2005,0),
+                        y: 230
+                    },
+                    {
+                        x: new Date(2006,0),
+                        y: 215
+                    },
+                    {
+                        x: new Date(2007,0),
+                        y: 209
+                    },
+                    {
+                        x: new Date(2008,0),
+                        y: 375
+                    },
+                    {
+                        x: new Date(2009,0),
+                        y: 929
+                    },
+                    {
+                        x: new Date(2010,0),
+                        y: 606
+                    },
+                    {
+                        x: new Date(2011,0),
+                        y: 490
+                    },
+                    {
+                        x: new Date(2012,0),
+                        y: 764
+                    },
+                    {
+                        x: new Date(2013,0),
+                        y: 632
+                    },
+                    {
+                        x: new Date(2014,0),
+                        y: 4701
+                    },
+                    {
+                        x: new Date(2015,0),
+                        y: 5527
+                    },
+                    {
+                        x: new Date(2016,0),
+                        y: 5650
+                    }
+                ]
+            },
+            {
+                type: "stackedColumn100",
+                name: "Vehicule",
+                showInLegend: true,
+                xValueFormatString: "YYYY",
+                yValueFormatString: "#,##0",
+                dataPoints: [
+                    {
+                        x: new Date(1970,0),
+                        y: 1
+                    },
+                    {
+                        x: new Date(1984,0),
+                        y: 3
+                    },
+                    {
+                        x: new Date(1986,0),
+                        y: 6
+                    },
+                    {
+                        x: new Date(1988,0),
+                        y: 1
+                    },
+                    {
+                        x: new Date(1990,0),
+                        y: 1
+                    },
+                    {
+                        x: new Date(1991,0),
+                        y: 3
+                    },
+                    {
+                        x: new Date(1994,0),
+                        y: 19
+                    },
+                    {
+                        x: new Date(1996,0),
+                        y: 4
+                    },
+                    {
+                        x: new Date(1997,0),
+                        y: 1
+                    },
+                    {
+                        x: new Date(1999,0),
+                        y: 1
+                    },
+                    {
+                        x: new Date(2001,0),
+                        y: 3006
+                    },
+                    {
+                        x: new Date(2002,0),
+                        y: 1
+                    },
+                    {
+                        x: new Date(2008,0),
+                        y: 7
+                    },
+                    {
+                        x: new Date(2009,0),
+                        y: 8
+                    },
+                    {
+                        x: new Date(2010,0),
+                        y: 2
+                    },
+                    {
+                        x: new Date(2011,0),
+                        y: 8
+                    },
+                    {
+                        x: new Date(2012,0),
+                        y: 4
+                    },
+                    {
+                        x: new Date(2013,0),
+                        y: 1
+                    },
+                    {
+                        x: new Date(2014,0),
+                        y: 6
+                    },
+                    {
+                        x: new Date(2015,0),
+                        y: 20
+                    },
+                    {
+                        x: new Date(2016,0),
+                        y: 21
+                    }
+                ]
+            },
+            {
+                type: "stackedColumn100",
+                name: "Sabotage",
+                showInLegend: true,
+                xValueFormatString: "YYYY",
+                yValueFormatString: "#,##0",
+                dataPoints: [
+                    {
+                        x: new Date(1981,0),
+                        y: 3
+                    },
+                    {
+                        x: new Date(1986,0),
+                        y: 25
+                    },
+                    {
+                        x: new Date(1988,0),
+                        y: 2
+                    },
+                    {
+                        x: new Date(1995,0),
+                        y: 1
+                    },
+                    {
+                        x: new Date(2000,0),
+                        y: 12
+                    },
+                    {
+                        x: new Date(2008,0),
+                        y: 1
+                    },
+                    {
+                        x: new Date(2011,0),
+                        y: 1
+                    },
+                    {
+                        x: new Date(2013,0),
+                        y: 4
+                    }
+                ]
+            },
+            {
+                type: "stackedColumn100",
+                name: "Incendie",
+                showInLegend: true,
+                xValueFormatString: "YYYY",
+                yValueFormatString: "#,##0",
+                dataPoints: [
+                    {
+                        x: new Date(1970,0),
+                        y: 14
+                    },
+                    {
+                        x: new Date(1971,0),
+                        y: 1
+                    },
+                    {
+                        x: new Date(1972,0),
+                        y: 3
+                    },
+                    {
+                        x: new Date(1973,0),
+                        y: 1
+                    },
+                    {
+                        x: new Date(1976,0),
+                        y: 9
+                    },
+                    {
+                        x: new Date(1977,0),
+                        y: 3
+                    },
+                    {
+                        x: new Date(1978,0),
+                        y: 436
+                    },
+                    {
+                        x: new Date(1979,0),
+                        y: 39
+                    },
+                    {
+                        x: new Date(1980,0),
+                        y: 59
+                    },
+                    {
+                        x: new Date(1981,0),
+                        y: 21
+                    },
+                    {
+                        x: new Date(1982,0),
+                        y: 15
+                    },
+                    {
+                        x: new Date(1983,0),
+                        y: 10
+                    },
+                    {
+                        x: new Date(1984,0),
+                        y: 52
+                    },
+                    {
+                        x: new Date(1985,0),
+                        y: 114
+                    },
+                    {
+                        x: new Date(1986,0),
+                        y: 40
+                    },
+                    {
+                        x: new Date(1987,0),
+                        y: 37
+                    },
+                    {
+                        x: new Date(1988,0),
+                        y: 22
+                    },
+                    {
+                        x: new Date(1989,0),
+                        y: 73
+                    },
+                    {
+                        x: new Date(1990,0),
+                        y: 65
+                    },
+                    {
+                        x: new Date(1991,0),
+                        y: 66
+                    },
+                    {
+                        x: new Date(1992,0),
+                        y: 359
+                    },
+                    {
+                        x: new Date(1993,0),
+                        y: 201
+                    },
+                    {
+                        x: new Date(1994,0),
+                        y: 56
+                    },
+                    {
+                        x: new Date(1995,0),
+                        y: 18
+                    },
+                    {
+                        x: new Date(1996,0),
+                        y: 65
+                    },
+                    {
+                        x: new Date(1997,0),
+                        y: 115
+                    },
+                    {
+                        x: new Date(1998,0),
+                        y: 26
+                    },
+                    {
+                        x: new Date(1999,0),
+                        y: 89
+                    },
+                    {
+                        x: new Date(2000,0),
+                        y: 72
+                    },
+                    {
+                        x: new Date(2001,0),
+                        y: 138
+                    },
+                    {
+                        x: new Date(2002,0),
+                        y: 569
+                    },
+                    {
+                        x: new Date(2003,0),
+                        y: 22
+                    },
+                    {
+                        x: new Date(2004,0),
+                        y: 23
+                    },
+                    {
+                        x: new Date(2005,0),
+                        y: 74
+                    },
+                    {
+                        x: new Date(2006,0),
+                        y: 34
+                    },
+                    {
+                        x: new Date(2007,0),
+                        y: 169
+                    },
+                    {
+                        x: new Date(2008,0),
+                        y: 105
+                    },
+                    {
+                        x: new Date(2009,0),
+                        y: 535
+                    },
+                    {
+                        x: new Date(2010,0),
+                        y: 48
+                    },
+                    {
+                        x: new Date(2011,0),
+                        y: 46
+                    },
+                    {
+                        x: new Date(2012,0),
+                        y: 80
+                    },
+                    {
+                        x: new Date(2013,0),
+                        y: 182
+                    },
+                    {
+                        x: new Date(2014,0),
+                        y: 637
+                    },
+                    {
+                        x: new Date(2015,0),
+                        y: 438
+                    },
+                    {
+                        x: new Date(2016,0),
+                        y: 302
+                    }
+                ]
+            },
+            {
+                type: "stackedColumn100",
+                name: "Radiologique",
+                showInLegend: true,
+                xValueFormatString: "YYYY",
+                yValueFormatString: "#,##0",
+                dataPoints: []
+            },
+            {
+                type: "stackedColumn100",
+                name: "Chimique",
+                showInLegend: true,
+                xValueFormatString: "YYYY",
+                yValueFormatString: "#,##0",
+                dataPoints: [
+                    {
+                        x: new Date(1973,0),
+                        y: 1
+                    },
+                    {
+                        x: new Date(1977,0),
+                        y: 1
+                    },
+                    {
+                        x: new Date(1979,0),
+                        y: 1
+                    },
+                    {
+                        x: new Date(1984,0),
+                        y: 1
+                    },
+                    {
+                        x: new Date(1987,0),
+                        y: 19
+                    },
+                    {
+                        x: new Date(1989,0),
+                        y: 1
+                    },
+                    {
+                        x: new Date(1990,0),
+                        y: 1
+                    },
+                    {
+                        x: new Date(1991,0),
+                        y: 3
+                    },
+                    {
+                        x: new Date(1992,0),
+                        y: 8
+                    },
+                    {
+                        x: new Date(1992,0),
+                        y: 28
+                    },
+                    {
+                        x: new Date(1994,0),
+                        y: 48
+                    },
+                    {
+                        x: new Date(1995,0),
+                        y: 30
+                    },
+                    {
+                        x: new Date(1998,0),
+                        y: 2
+                    },
+                    {
+                        x: new Date(1999,0),
+                        y: 67
+                    },
+                    {
+                        x: new Date(2000,0),
+                        y: 200
+                    },
+                    {
+                        x: new Date(2001,0),
+                        y: 4
+                    },
+                    {
+                        x: new Date(2002,0),
+                        y: 10
+                    },
+                    {
+                        x: new Date(2003,0),
+                        y: 3
+                    },
+                    {
+                        x: new Date(2007,0),
+                        y: 30
+                    },
+                    {
+                        x: new Date(2009,0),
+                        y: 2
+                    },
+                    {
+                        x: new Date(2012,0),
+                        y: 1
+                    },
+                    {
+                        x: new Date(2013,0),
+                        y: 27
+                    },
+                    {
+                        x: new Date(2014,0),
+                        y: 58
+                    },
+                    {
+                        x: new Date(2015,0),
+                        y: 11
+                    },
+                    {
+                        x: new Date(2016,0),
+                        y: 51
+                    }
+                ]
+            },
+            {
+                type: "stackedColumn100",
+                name: "Autres",
+                showInLegend: true,
+                xValueFormatString: "YYYY",
+                yValueFormatString: "#,##0",
+                dataPoints: [
+                    {
+                        x: new Date(1984,0),
+                        y: 2
+                    },
+                    {
+                        x: new Date(1989,0),
+                        y: 1
+                    },
+                    {
+                        x: new Date(1991,0),
+                        y: 3
+                    },
+                    {
+                        x: new Date(1992,0),
+                        y: 2
+                    },
+                    {
+                        x: new Date(1993,0),
+                        y: 2
+                    },
+                    {
+                        x: new Date(1994,0),
+                        y: 7
+                    },
+                    {
+                        x: new Date(1995,0),
+                        y: 1
+                    },
+                    {
+                        x: new Date(2007,0),
+                        y: 2
+                    },
+                    {
+                        x: new Date(2008,0),
+                        y: 2
+                    },
+                    {
+                        x: new Date(2009,0),
+                        y: 7
+                    },
+                    {
+                        x: new Date(2011,0),
+                        y: 2
+                    },
+                    {
+                        x: new Date(2012,0),
+                        y: 2
+                    },
+                    {
+                        x: new Date(2014,0),
+                        y: 7
+                    },
+                    {
+                        x: new Date(2015,0),
+                        y: 8
+                    },
+                    {
+                        x: new Date(2016,0),
+                        y: 68
+                    }
+                ]
             }
         ]
     });
@@ -2277,30 +2247,12 @@ window.onload = function () {
             toolTipContent: "{name}: <strong>{y}%</strong>",
             indexLabel: "{name} - {y}%",
             dataPoints: [
-                {
-                    "y": 8898,
-                    "name": "Business"
-                },
-                {
-                    "y": 1847,
-                    "name": "Gouvernement"
-                },
-                {
-                    "y": 7535,
-                    "name": "Militaire"
-                },
-                {
-                    "y": 18809,
-                    "name": "Autres"
-                },
-                {
-                    "y": 6166,
-                    "name": "Police"
-                },
-                {
-                    "y": 8938,
-                    "name": "Civil", exploded: true
-                }
+                {'name': 'Business', 'y': 17},
+                {'name': 'Gouvernement', 'y': 3},
+                {'name': 'Militaire', 'y': 14},
+                {'name': 'Autres', 'y': 36},
+                {'name': 'Police', 'y': 11},
+                {'name': 'Civil', 'y': 17, exploded: true}
             ]
         }]
     });
@@ -2321,30 +2273,12 @@ window.onload = function () {
             toolTipContent: "{name}: <strong>{y}%</strong>",
             indexLabel: "{name} - {y}%",
             dataPoints: [
-                {
-                    "y": 9505,
-                    "name": "Business"
-                },
-                {
-                    "y": 1408,
-                    "name": "Gouvernement"
-                },
-                {
-                    "y": 15848,
-                    "name": "Militaire"
-                },
-                {
-                    "y": 36758,
-                    "name": "Autres"
-                },
-                {
-                    "y": 16046,
-                    "name": "Police"
-                },
-                {
-                    "y": 28910,
-                    "name": "Civil", exploded: true
-                }
+                {'name': 'Business', 'y': 8},
+                {'name': 'Gouvernement', 'y': 1},
+                {'name': 'Militaire', 'y': 14},
+                {'name': 'Autres', 'y': 33},
+                {'name': 'Police', 'y': 14},
+                {'name': 'Civil', 'y': 26, 'exploded': true}
             ]
         }]
     });
